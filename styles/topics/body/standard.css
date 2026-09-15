@@ -101,6 +101,8 @@
 
 		.content { 
 			grid-area: message;
+			padding: var(--spacing-2xl);
+			font: var(--f-base) var(--f-text);
 		}
 	}
 
