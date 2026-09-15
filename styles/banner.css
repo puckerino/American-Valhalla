@@ -1,49 +1,47 @@
-#banner {
-    height: calc(100vh - var(--size-nav));
-    margin-top: var(--size-nav);
+
+
+.forum-banner { 
+    height: calc(100vh - var(--nav-size));
+    margin-top: var(--nav-size);
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     position: relative;
-    background-image: var(--img-bkg-banner);
+    background: var(--banner-background);
     background-size: cover;
 
-    #site-title {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+	h1 { 
+        font: var(--f-5xl) var(--f-banner);
+        line-height: 1;
+        width: 60vw;
+        
 
-        a {
+		a { 
             display: flex;
             flex-direction: column;
-            align-items: center;
 
-            span {
-                font: 200px var(--fm-deco);
+			span { 
+                text-fit: grow;
                 text-transform: uppercase;
                 color: transparent;
                 -webkit-text-stroke: 1px var(--c-texto);
                 line-height: .8;
-            }
-        }
+			}
+		}
+	}
 
-        .sub {
-            font: 25px oli;
-            text-transform: uppercase;
-            color: var(--c-texto);
-            opacity: .8;
-            margin-bottom: .5rem;
-        }
+	.banner-subtitle { 
+        font: var(--f-base) var(--f-subtitle);
+        text-transform: uppercase;
+	}
 
-
-    }
-
-    .wendigo {
-        object-fit: contain;
+	.wendigo { 
         height: 40vh;
+        object-fit: contain;
+        object-repeat: no-repeat;
         position: absolute;
         bottom: 0;
-    }
+	}
 }
