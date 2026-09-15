@@ -43,6 +43,8 @@
 		.postheader { 
 			grid-area: header;
 			border-bottom: 1px solid var(--border);
+			display: flex;
+			align-items: center;
 
 			div[data-profile-render-value="imagen-post"] { 
 				height: 50px;
@@ -60,12 +62,14 @@
 				font: bold var(--f-s) var(--f-text);
 				text-transform: uppercase;
 				letter-spacing: .1ch;
+				padding: 0 var(--spacing);
 			}
 		}
 
 		.data { 
 			grid-area: data;
 			border-right: 1px solid var(--border);
+			padding: var(--spacing) 0;
 
 			.permalink { 
 
