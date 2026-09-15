@@ -1,0 +1,10 @@
+.lastpost, .lasttopic, .post, .member, .feed-item, .search-list-post, .profile {
+  &:has(.group-2), &.post-group-2 {--poster: var(--group-2);} 
+  &:has(.group-3), &.post-group-3  {--poster: var(--group-3);}
+  
+  --poster-dark: color-mix(in srgb, var(--poster), var(--mono-contrast) 10%);
+  --poster-darker: color-mix(in srgb, var(--poster), var(--mono-contrast) 50%);
+  --shadow-poster: drop-shadow(0 0 0.75rem var(--poster));
+  --shadow-poster-dark: drop-shadow(0 0 0.75rem var(--poster-dark));
+  --poster-deco: radial-gradient(ellipse 70% 60% at 50% 0%, color-mix(in srgb, var(--poster), transparent 85%), transparent);
+}
