@@ -8,6 +8,7 @@
 		grid-template-columns: 50px 1fr;
 		grid-template-rows: max-content 50px 1fr max-content;
 		grid-template-areas: "mobile mobile" "header header" "data message" "data signature";
+		border: 1px solid var(--border);
 
 		.postheader-mobile { 
 		   grid-area: mobile;
@@ -15,7 +16,7 @@
 			align-items: center; 
 			gap: var(--spacing);
 
-			@media (mix-width: 701px) {
+			@media (min-width: 701px) {
 				display: none;
 			}
 
@@ -41,6 +42,7 @@
 
 		.postheader { 
 			grid-area: header;
+			border-bottom: 1px solid var(--border);
 
 			div[data-profile-render-value="imagen-post"] { 
 				height: 50px;
@@ -63,6 +65,7 @@
 
 		.data { 
 			grid-area: data;
+			border-right: 1px solid var(--border);
 
 			.permalink { 
 
@@ -94,7 +97,6 @@
 
 		.content { 
 			grid-area: message;
-
 		}
 	}
 
