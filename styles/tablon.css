@@ -1,0 +1,44 @@
+#tablon { 
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: var(--spacing);
+
+
+	.lasttopics { 
+    grid-column: 1 / -1;
+
+
+		.tablon-title { 
+
+		}
+
+		.wrap { 
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(4,1fr);
+
+			.lasttopic { 
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+
+				.date { 
+          font: var(--f-s) var(--f-mono);
+          text-transform: uppercase;
+				}
+
+				.title { 
+          font: var(--f-base) var(--f-title);
+          text-transform: uppercase;
+				}
+
+				.username { 
+          font: var(--f-base) var(--f-text);
+          text-transform: uppercase;
+          
+				}
+			}
+		}
+	}
+}
