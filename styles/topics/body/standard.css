@@ -113,30 +113,23 @@
 			a { 
 
 				img { 
-
+					mask-image: linear-gradient(to bottom, black, transparent);
 				}
 			}
 		}
 
 		hgroup { 
+			margin-top: -2rem;
 
 			.username { 
-
-				a { 
-
-					.group-2 { 
-
-						strong { 
-
-						}
-					}
-				}
+				font: var(--f-xl) var(--f-post-username);
+				text-transform: uppercse;
 			}
 
 			.rank { 
 
 				br { 
-
+					display: none;
 				}
 			}
 		}
