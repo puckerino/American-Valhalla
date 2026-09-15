@@ -4,7 +4,7 @@
 	grid-template-areas: "body aside";
 
 	.postbody { 
-		display: grid;
+		display: grid !important;
 		grid-template-columns: 50px 1fr;
 		grid-template-rows: max-content 50px 1fr max-content;
 		grid-template-areas: "mobile mobile" "header header" "data message" "data signature";
