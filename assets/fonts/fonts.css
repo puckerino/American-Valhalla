@@ -1,1 +1,22 @@
+@font-face {
+    font-family: antiqua;
+    src: url(https://puckerino.github.io/American-Valhalla/assets/fonts/Antigua.otf);
+}
+
+@font-face {
+    font-family: hc;
+    src: url(https://puckerino.github.io/American-Valhalla/assets/fonts/HighestCastellia.ttf);
+}
+
+@font-face {
+    font-family: printvetica;
+    src: url(https://puckerino.github.io/American-Valhalla/assets/fonts/Printvetica.otf);
+}
+
+@font-face {
+    font-family: oli;
+    src: url(https://puckerino.github.io/American-Valhalla/assets/fonts/Olivetti.ttf);
+}
+
+
 
