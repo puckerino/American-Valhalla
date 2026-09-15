@@ -70,6 +70,7 @@
 			grid-area: data;
 			border-right: 1px solid var(--border);
 			padding: var(--spacing) 0;
+			background: linear-gradient(150deg, transparent 70%, var(--color-poster) 200%);
 
 			.permalink { 
 
@@ -122,8 +123,12 @@
 			margin-top: -2rem;
 
 			.username { 
-				font: var(--f-xl) var(--f-post-username);
-				text-transform: uppercse;
+				font: var(--f-2xl) var(--f-post-username);
+				text-transform: uppercase;
+
+				strong {
+					color: var(--text-1) !important;
+				}
 			}
 
 			.rank { 
