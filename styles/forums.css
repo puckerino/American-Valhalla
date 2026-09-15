@@ -31,6 +31,7 @@
     --forum-rows: 3;
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "title title" "desc links" "lastpost lastpost";
+    border: 1px solid var(--border);
 
   .forum-img {
     display: none;
@@ -41,15 +42,27 @@
     display: none;
   }
 
+  .description {
+    padding: var(--spacing);
+    font: var(--f-base) var(--f-text);
+  }
+
   & > .title {
     font: var(--f-3xl) var(--f-title-deco);
     text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    padding: var(--spacing);
+  }
+
+  .links {
+    padding: var(--spacing);
   }
 
   .forum-links {
     display: grid;
     font: 100 var(--f-base) var(--f-mono);
     text-transform: uppercase;
+    padding: var(--spacing);
 
     &:has(a:nth-child(5)) {
       grid-template-columns: repeat(2,1fr);
@@ -72,6 +85,13 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
-    }
-}
+
+      .username {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }   
+  }
 }
