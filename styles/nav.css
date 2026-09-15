@@ -1,0 +1,19 @@
+nav {
+  width: 100%;
+  height: var(--nav-size);
+  padding: var(--spacing-s);
+  background: var(--navbar);
+  color: var(--navbar-text);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font: var(--f-s) var(--f-label);
+  
+  & > * {display: flex;align-items: center;}
+  
+  i, svg {height: calc(var(--nav-size) / 2);width: calc(var(--nav-size) / 2);}
+  
+  .link-perfil { display: flex;align-items: center;gap: var(--spacing-s);}
+}
