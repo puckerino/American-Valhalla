@@ -1,0 +1,139 @@
+.post {
+  grid-template-columns: 1fr max-content;
+  gap: var(--spacing);
+  grid-template-areas: "body aside";
+
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    grid-template-areas: "body";
+  }
+
+	.postbody { 
+
+		.postheader { 
+
+			.avatar-post-mobile { 
+        
+
+				a { 
+
+					img { 
+
+					}
+				}
+			}
+
+			hgroup { 
+
+				.username { 
+
+					a { 
+
+						.group-2 { 
+
+							strong { 
+
+							}
+						}
+					}
+				}
+
+				.rank { 
+
+					br { 
+
+					}
+				}
+			}
+
+			div { 
+
+			}
+
+			.rankimg { 
+
+			}
+		}
+
+		.data { 
+
+			.permalink { 
+
+				i { 
+
+				}
+			}
+
+			.date { 
+
+			}
+
+			.profile-icons { 
+
+				li { 
+
+					.button { 
+
+						i { 
+
+						}
+
+						span { 
+
+						}
+					}
+				}
+			}
+		}
+
+		.content { 
+		}
+	}
+
+	.profile { 
+
+    @media (max-width: 700px) {
+      display: none;
+    }
+
+		.avatar-post { 
+
+			a { 
+
+				img { 
+
+				}
+			}
+		}
+
+		.profile-data { 
+
+			.profile-fields { 
+
+				.profile-field { 
+
+					.field-name { 
+
+					}
+
+					.field-value { 
+
+					}
+				}
+			}
+		}
+
+		.contact { 
+
+			li { 
+
+				.profile-icon { 
+
+					i { 
+
+					}
+				}
+			}
+		}
+	}
+}
