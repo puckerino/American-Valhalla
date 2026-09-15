@@ -1,6 +1,9 @@
 .lastpost, .lasttopic, .post, .member, .feed-item, .search-list-post, .profile {
   &:has(.group-2), &.post-group-2 {--poster: var(--group-2);} 
   &:has(.group-3), &.post-group-3  {--poster: var(--group-3);}
+  &:has(.group-4), &.post-group-4  {--poster: var(--group-4);}
+   &:has(.group-5), &.post-group-5  {--poster: var(--group-5);}
+   &:has(.group-6), &.post-group-6  {--poster: var(--group-6);}
   
   --poster-dark: color-mix(in srgb, var(--poster), var(--mono-contrast) 10%);
   --poster-darker: color-mix(in srgb, var(--poster), var(--mono-contrast) 50%);
