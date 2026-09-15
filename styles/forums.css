@@ -26,8 +26,39 @@
   .forum-img {
     display: none;
   }
+  }
 
   .data {
     display: none;
   }
+
+  & > .title {
+    font: var(--f-xl) var(--f-title-deco);
+  }
+
+  .forum-links {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    font: var(--f-base) var(--f-mono);
+    text-transform: uppercase;
+
+    a {
+      text-align: right;
+    }
+  }
+
+  .lastpost {
+    display: flex;
+
+    .avatar-lastpost-forum {
+      border: 10px solid var(--poster);
+    }
+
+    .lastpost-data {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+    }
 }
+
