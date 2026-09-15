@@ -38,7 +38,7 @@
   }
   }
 
-  .data {
+  .data, .icon {
     display: none;
   }
 
