@@ -63,6 +63,20 @@
 				text-transform: uppercase;
 				letter-spacing: .1ch;
 				padding: 0 var(--spacing);
+				flex-grow: 1;
+			}
+			
+			.contact { 
+				display: flex;
+				align-items: center;
+				gap: var(--spacing-s);
+				
+				li { 
+					display: flex;
+					align-items: center;
+					
+					.profile-icon { }
+				}
 			}
 		}
 
@@ -143,18 +157,7 @@
 
 		}
 
-		.contact { 
 
-			li { 
-
-				.profile-icon { 
-
-					i { 
-
-					}
-				}
-			}
-		}
 
 		.profile-fields { 
 
