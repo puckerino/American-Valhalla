@@ -75,6 +75,7 @@
 
   .lastpost {
     display: flex;
+    background: var(--mono-2);
 
     .avatar-lastpost-forum {
       border: 10px solid var(--poster);
