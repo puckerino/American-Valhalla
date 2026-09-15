@@ -1,0 +1,33 @@
+.forum-wrap {
+  gap: var(--spacing);
+
+  &:has(.forum:nth-child(3)) {
+    .forum:first-of-type {
+      grid-column: 1 / -1;
+    }
+  }
+}
+
+.forum {
+  display: grid;
+
+  &:first-of-type:not(:has(.forum-img:empty)) {
+  --forum-rows: 3;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-areas: "title title img" "desc links img" "lastpost lastpost img";
+  }
+
+
+  &:has(.forum-img:empty) {
+    --forum-rows: 3;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "title title" "desc links" "lastpost lastpost";
+
+  .forum-img {
+    display: none;
+  }
+
+  .data {
+    display: none;
+  }
+}
