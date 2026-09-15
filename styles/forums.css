@@ -1,7 +1,7 @@
 .category {
   hgroup {
     h2 {
-      font: 200 var(--f-3xl) var(--f-category-title);
+      font: 200 var(--f-5xl) var(--f-category-title);
       text-transform: uppercase;
     }
   }
@@ -42,7 +42,7 @@
   }
 
   & > .title {
-    font: var(--f-xl) var(--f-title-deco);
+    font: var(--f-3xl) var(--f-title-deco);
     text-transform: uppercase;
   }
 
@@ -74,4 +74,4 @@
       justify-content: space-between;
     }
 }
-
+}
