@@ -1,0 +1,136 @@
+:root {
+    interpolate-size: allow-keywords;
+    color-scheme: light dark;
+
+    --f-deco: "Boldonse", system-ui;
+    --f-title-deco: "Boldonse", system-ui;
+    --f-title: "Archivo", sans-serif;
+    --f-subtitle: 'DM Sans';
+    --f-text: "Archivo", sans-serif;
+    --f-mono: "Space Mono", monospace;
+    --f-buttons: "Space Mono", monospace;
+    --f-label: "Poppins", sans-serif;
+    --f-metadata: "Poppins", sans-serif;
+
+    --f-banner: "Archivo", sans-serif;
+    --f-category-title: "Boldonse", system-ui;
+    --f-forum-title: "Archivo", sans-serif;
+    --f-forum-links: "Space Mono", monospace;
+    --f-post-username: "Boldonse", system-ui;
+
+    /*SHAPES*/
+    --shape-deco: square;
+    --shape-elements: square;
+    --shape-cards: square;
+    --shape-buttons: square;
+  
+  /*SHADOWS*/
+  --shadow: 0 4px 12px rgb(0 0 0 / 0.15);
+--shadow-2: 0 10px 24px rgb(0 0 0 / 0.25);
+
+    /* FOUNDATION*/
+
+    --mono-1: light-dark(#fcfcfc, #1c1c1c);
+    --mono-2: light-dark(#f6f6f6, #212121);
+    --mono-3: light-dark(#f0f0f0, #262626);
+    --mono-4: light-dark(#e8e8e8, #2c2c2c);
+    --mono-5: light-dark(#e2e2e2, #323232);
+    --mono-contrast: #1c1c1c;
+    --mono-2-contrast: #212121;
+    --mono-3-contrast: #262626;
+
+    --text-1: light-dark(#1c1c1c, #fcfcfc);
+    --text-2: light-dark(#212121, #f6f6f6);
+    --text-3: light-dark(#262626, #f0f0f0);
+    --text-4: light-dark(#2c2c2c, #e8e8e8);
+    --text-1-contrast: #fcfcfc;
+    --text-2-contrast: #f6f6f6;
+    --text-3-contrast: #f0f0f0;
+
+    /* ACCENT*/
+
+    --accent: light-dark(#5CB2A1, #4b9183);
+    --accent-dark: color-mix(in srgb, var(--accent), var(--surface-contrast) 10%);
+    --accent-darker: color-mix(in srgb, var(--accent), var(--surface-contrast) 50%);
+    --accent-light: color-mix(in srgb, var(--accent), var(--text-contrast) 10%);
+    --accent-lighter: color-mix(in srgb, var(--accent), var(--text-contrast) 50%);
+
+    --accent-gradient: linear-gradient(to top, var(--accent-darker), var(--accent-dark), var(--accent), var(--accent-light));
+    --accent-deco: radial-gradient(ellipse 70% 60% at 50% 0%, color-mix(in srgb, var(--accent), transparent 85%), transparent);
+
+
+    /* SEMANTIC TOKENS*/
+
+    --background: var(--mono-1);
+    --background-elevated: var(--mono-2);
+    --background-contrast: var(--mono-contrast);
+    --background-elevated-contrast: var(--mono-2-contrast);
+    --background-elevated-2-contrast: var(--mono-3-contrast);
+
+    --surface: light-dark(#fcfcfc, #212121);
+    --surface-elevated: light-dark(#f6f6f6, #262626);
+    --surface-hover: var(--mono-4);
+    --surface-active: var(--mono-5);
+
+    --border: var(--mono-4);
+    --border-hover: var(--mono-5);
+    --border-focus: var(--mono-5);
+
+    --text: var(--text-1);
+    --text-contrast: var(--text-1-contrast);
+    --text-muted: var(--text-2);
+    --text-subtle: var(--text-3);
+    --text-subtle-contrast: var(--text-3-contrast);
+    --text-disabled: var(--text-4);
+
+    --input: var(--surface-elevated);
+    --input-hover: var(--surface-hover);
+    --input-border: var(--border);
+    --input-border-focus: var(--border-focus);
+  --border-strong: var(--border-focus);
+
+    --toolbar: var(--accent);
+    --toolbar-text: var(--text-contrast);
+
+    --tooltip: var(--surface-elevated);
+    --tooltip-text: contrast-color(var(--tooltip));
+
+    --navbar: color-mix(in srgb, var(--surface-elevated), transparent 20%);
+    --navbar-text: var(--text);
+    --nav-size: 40px;
+
+    --sidebar: var(--surface-elevated);
+
+    --texture: url(https://miro.medium.com/v2/resize:fit:1400/1*6VsuSv8WEO3AQhDJLsVYCA.png);
+
+    /* GRUPOS*/
+    --group-2: light-dark(#4b9183, #4b9183);
+    --group-4: light-dark(#606aaa, #606aaa);
+
+    /* IMAGENES */
+    --avatar-post-width: 250px;
+    --avatar-post-height: 400px;
+    --avatar-post-mobile-width: 80px;
+    --avatar-post-mobile-height: 80px;
+    --avatar-post-mini-width: 80px;
+    --avatar-post-mini-height: 80px;
+    --avatar-nav-width: calc(var(--nav-size) - calc(var(--spacing-s) * 2));
+    --avatar-nav-height: calc(var(--nav-size) - calc(var(--spacing-s) * 2));
+    --avatar-lastpost-forum-width: 60px;
+    --avatar-lastpost-forum-height: 60px;
+    --avatar-lastpost-topic-width: 40px;
+    --avatar-lastpost-topic-height: 40px;
+    --avatar-memberlist-width: 250px;
+    --avatar-memberlist-height: 400px;
+    --avatar-privmsg-width: 80px;
+    --avatar-privmsg-height: 80px;
+    --avatar-discover-width: 50px;
+    --avatar-discover-height: 50px;
+    --rpg-img-width: 200px;
+    --rpg-img-height: 200px;
+
+    /* ICONOS */
+    --icon-topic-read: url("https://unpkg.com/lucide-static/icons/sparkle.svg");
+    --icon-topic-unread: url("https://unpkg.com/lucide-static/icons/sparkle.svg");
+
+}
