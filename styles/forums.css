@@ -48,9 +48,12 @@
 
   .forum-links {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    font: var(--f-base) var(--f-mono);
+    font: 100 var(--f-base) var(--f-mono);
     text-transform: uppercase;
+
+    &:has(a:nth-child(5)) {
+      grid-template-columns: repeat(2,1fr);
+    }
 
     a {
       text-align: right;
