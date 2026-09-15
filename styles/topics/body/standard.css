@@ -1,61 +1,68 @@
-.post {
-  grid-template-columns: 1fr max-content;
-  gap: var(--spacing);
-  grid-template-areas: "body aside";
-
-  @media (max-width: 700px) {
-    grid-template-columns: 1fr;
-    grid-template-areas: "body";
-  }
+.post { 
+	display: grid;
+	grid-template-columns: 1fr max-content;
+	grid-template-areas: "body aside";
 
 	.postbody { 
+		display: grid;
+		grid-template-columns: 50px 1fr;
+		grid-template-rows: max-content 50px 1fr max-content;
+		grid-template-areas: "mobile mobile" "header header" "data message" "data signature";
 
-		.postheader { 
+		.postheader-mobile { 
+		   grid-area: mobile;
+			display: flex;
+			align-items: center; 
+			gap: var(--spacing);
+
+			@media (mix-width: 701px) {
+				display: none;
+			}
 
 			.avatar-post-mobile { 
-        
+				height: var(--avatar-post-mobile-height);
+				width: var(--avatar-post-mobile-width);
 
 				a { 
 
 					img { 
-
+						object-fit: cover;
+						height: var(--avatar-post-mobile-height);
+						width: var(--avatar-post-mobile-width);
 					}
 				}
 			}
 
-			hgroup { 
-
-				.username { 
-
-					a { 
-
-						.group-2 { 
-
-							strong { 
-
-							}
-						}
-					}
-				}
-
-				.rank { 
-
-					br { 
-
-					}
-				}
+			.username { 
+				font: var(--f-xl) var(--f-post-username);
+				text-transform: uppercase;
 			}
+		}
 
-			div { 
+		.postheader { 
+			grid-area: header;
+
+			div[data-profile-render-value="imagen-post"] { 
+				height: 50px;
+				width: 50px;
+
+				img {
+					object-fit: cover;
+					height: 50px;
+					width: 50px;
+				}
 
 			}
 
-			.rankimg { 
-
+			.date { 
+				font: bold var(--f-s) var(--f-text);
+				text-transform: uppercase;
+				letter-spacing: .1ch;
 			}
 		}
 
 		.data { 
+			grid-area: data;
 
 			.permalink { 
 
@@ -64,11 +71,10 @@
 				}
 			}
 
-			.date { 
-
-			}
-
 			.profile-icons { 
+				display: flex;
+				flex-direction: column;
+				gap: var(--spacing-s);
 
 				li { 
 
@@ -87,14 +93,12 @@
 		}
 
 		.content { 
+			grid-area: message;
+
 		}
 	}
 
 	.profile { 
-
-    @media (max-width: 700px) {
-      display: none;
-    }
 
 		.avatar-post { 
 
@@ -106,21 +110,31 @@
 			}
 		}
 
-		.profile-data { 
+		hgroup { 
 
-			.profile-fields { 
+			.username { 
 
-				.profile-field { 
+				a { 
 
-					.field-name { 
+					.group-2 { 
 
-					}
+						strong { 
 
-					.field-value { 
-
+						}
 					}
 				}
 			}
+
+			.rank { 
+
+				br { 
+
+				}
+			}
+		}
+
+		.profile-data { 
+
 		}
 
 		.contact { 
@@ -132,6 +146,20 @@
 					i { 
 
 					}
+				}
+			}
+		}
+
+		.profile-fields { 
+
+			.profile-field { 
+
+				.field-name { 
+
+				}
+
+				.field-value { 
+
 				}
 			}
 		}
