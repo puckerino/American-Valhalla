@@ -21,7 +21,7 @@
       height: max-content;
       position: sticky;
       top: var(--nav-size);
-      border-right: 1px solid var(--border);
+      
 
       @media (max-width: 700px) {
         display: none;
@@ -43,6 +43,8 @@
     .guidebook-content {
       display: flex;
       flex-direction: column;      
+      border-left: 1px solid var(--border);
+      
       @media (max-width: 700px) {
         border-left: 0;
       }
