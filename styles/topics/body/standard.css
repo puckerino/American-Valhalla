@@ -123,6 +123,9 @@
 	}
 
 	.profile { 
+		height: max-content;
+		position: sticky;
+		top: var(--nav-size);
 
 		.avatar-post { 
 
