@@ -4,6 +4,7 @@
   .guidebook-wrap {
     display: grid;
     grid-template-columns: 20vw 1fr;
+    border: 1px solid var(--border);
 
     &:has(.guidebook-toc:empty) {
       grid-template-columns: 1fr;
@@ -20,6 +21,7 @@
       height: max-content;
       position: sticky;
       top: var(--nav-size);
+      border-right: 1px solid var(--border);
 
       @media (max-width: 700px) {
         display: none;
@@ -40,9 +42,7 @@
 
     .guidebook-content {
       display: flex;
-      flex-direction: column;
-      border-left: 1px solid var(--border);
-      
+      flex-direction: column;      
       @media (max-width: 700px) {
         border-left: 0;
       }
@@ -57,20 +57,10 @@
         
         .guidebook-subject {
           width: 100%;
-          font: var(--f-3xl) var(--f-title-deco);
+          font: var(--f-2xl) var(--f-title-deco);
           padding: var(--spacing-2xl);
           border-bottom: 1px solid var(--border);
-          display: flex;
-          align-items: center;
-          gap: var(--spacing);
-
-          &:before {
-            content: "";
-            height: 1px;
-            width: 5vw;
-            background: var(--accent);
-          }
-            
+          text-transform: uppercase;          
         }
 
         .data .profile-icons {
