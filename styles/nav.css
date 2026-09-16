@@ -8,7 +8,7 @@ nav {
   z-index: 999;
   font: var(--f-s) var(--f-label);
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(2,1fr);
   
   
   & > * {display: flex;align-items: center; gap: var(--spacing-s);}
@@ -16,7 +16,7 @@ nav {
   i, svg {height: calc(var(--nav-size) / 2);width: calc(var(--nav-size) / 2);}
 
   .breadcrumbs {
-    justify-content: center;
+    display: none;
   }
 
   .admin-nav a {
