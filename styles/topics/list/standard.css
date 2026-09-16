@@ -1,5 +1,8 @@
 .topiclist {
 
+
+    
+
   .topiclist-title {
     font: var(--f-2xl) var(--f-title);
     text-transform: uppercase;
@@ -7,6 +10,11 @@
 
   .topic {
     border: 1px solid var(--border);
+
+      @container style(--screen: mobile) {
+        display: flex;
+        flex-direction: column;
+      }
 
     & > .title {
       font: var(--f-l) var(--f-title);
@@ -20,10 +28,18 @@
 
     .data {
       font: var(--f-s) var(--f-mono);
+
+      @container style(--screen: mobile) {
+        display: none;
+      }
     }
     
     .icon img {
-      display: block !important;
+      display: block !important;      
+      
+      @container style(--screen: mobile) {
+        display: none;
+      }
     }
 
     .lastpost {
