@@ -57,6 +57,10 @@
 					width: 50px;
 				}
 
+				@container style(--screen: mobile) {
+					display: none;
+				}
+
 			}
 
 			.date { 
@@ -71,6 +75,7 @@
 				display: flex;
 				align-items: center;
 				gap: var(--spacing-s);
+				padding-right: var(--spacing);
 				
 				li { 
 					display: flex;
