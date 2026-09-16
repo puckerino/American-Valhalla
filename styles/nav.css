@@ -1,7 +1,6 @@
 nav {
   width: 100%;
   height: var(--nav-size);
-  padding: var(--spacing-s);
   background: var(--navbar);
   color: var(--navbar-text);
   position: sticky;
@@ -20,9 +19,25 @@ nav {
     justify-content: center;
   }
 
+  .admin-nav a {
+    background: var(--accent);
+    padding: var(--spacing-xs) var(--spacing-s);
+  }
+    
+
   .user-nav {
     justify-content: flex-end;
   }
   
-  .link-perfil { display: flex;align-items: center;gap: var(--spacing-s);}
+  .link-perfil {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-s);
+
+    .username {
+      font: var(--f-l) var(--f-title-deco);
+      text-transform: uppercase;
+      line-height: 1;
+    }
+  }
 }
