@@ -125,7 +125,7 @@
 		height: max-content;
 		position: sticky;
 		top: var(--nav-size);
-		position: relative;
+		display: grid;
 
 		@media (max-width: 700px) {
 			display: none;
@@ -142,13 +142,12 @@
 		}
 
 		hgroup { 
+			grid-area: avatar !important;
 			width: 350px;
 			height: 350px;
 			display: flex;
 			align-items: flex-end;
-			position: absolute;
-			top: 0;
-			left: 0;
+			
 
 			.username { 
 				font: 100 var(--f-3xl) var(--f-post-username);
