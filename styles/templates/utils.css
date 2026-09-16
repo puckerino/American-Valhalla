@@ -1,4 +1,4 @@
-.post:has(sin-perfil) {
+.post:has([sin-perfil]) {
   grid-template-columns: 1fr !important;
   grid-template-areas: "body" !important;
   .profile {
