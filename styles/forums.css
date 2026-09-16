@@ -81,6 +81,7 @@
     display: flex;
     background: var(--mono-2);
     gap: var(--spacing-s);
+    padding-right: var(--spacing);
 
     .avatar-lastpost-forum {
       border: 10px solid var(--poster);
