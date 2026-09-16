@@ -85,7 +85,7 @@
 			grid-area: data;
 			border-right: 1px solid var(--border);
 			padding: var(--spacing) 0;
-			background: linear-gradient(150deg, transparent 70%, var(--color-poster) 200%);
+			background: linear-gradient(150deg, transparent 70%, var(--poster) 200%);
 
 			.permalink { 
 
