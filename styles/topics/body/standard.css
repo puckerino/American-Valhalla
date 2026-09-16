@@ -127,6 +127,10 @@
 		position: sticky;
 		top: var(--nav-size);
 
+		@media (max-width: 700px) {
+			display: none;
+		}
+
 		.avatar-post { 
 
 			a { 
@@ -157,10 +161,6 @@
 					display: none;
 				}
 			}
-		}
-
-		.profile-data { 
-
 		}
 
 
