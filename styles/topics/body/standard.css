@@ -120,6 +120,7 @@
 		height: max-content;
 		position: sticky;
 		top: var(--nav-size);
+		position: relative;
 
 		@media (max-width: 700px) {
 			display: none;
@@ -136,8 +137,13 @@
 		}
 
 		hgroup { 
-			margin-top: -2rem;
 			width: 350px;
+			height: 350px;
+			display: flex;
+			align-items: flex-end;
+			position: absolute;
+			top: 0;
+			left: 0;
 
 			.username { 
 				font: 100 var(--f-3xl) var(--f-post-username);
@@ -146,13 +152,6 @@
 
 				strong {
 					color: var(--text-1) !important;
-				}
-			}
-
-			.rank { 
-
-				br { 
-					display: none;
 				}
 			}
 		}
