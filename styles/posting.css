@@ -1,0 +1,22 @@
+main.posting {
+
+  #preview {
+    .page-subtitle {
+      padding: var(--spacing) 0;
+    }
+  }
+
+  #postingbox {
+    padding: var(--spacing) 0;
+
+    .form-control label {
+      font: var(--f-base) var(--f-title);
+      text-transform: uppercase;
+    }
+  }
+
+  .post-options, .dices {
+    border: 1px solid var(--border);
+    margin-bottom: var(--spacing);
+  }
+}
