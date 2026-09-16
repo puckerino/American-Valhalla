@@ -101,6 +101,7 @@
         justify-content: space-between;
         font: var(--f-s) var(--f-mono);
         text-transform: uppercase;
+        gap: var(--spacing);
 
         a {
           font: var(--f-base) var(--f-title-deco);
