@@ -80,6 +80,7 @@
   .lastpost {
     display: flex;
     background: var(--mono-2);
+    gap: var(--spacing-s);
 
     .avatar-lastpost-forum {
       border: 10px solid var(--poster);
@@ -90,12 +91,26 @@
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      width: 100%;
+      gap: var(--spacing-s);
 
       .username {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        font: var(--f-s) var(--f-mono);
+        text-transform: uppercase;
+
+        a {
+          font: var(--f-base) var(--f-title-deco);
+          text-transform: uppercase;
+        }
+      }
+
+      .title {
+        font: var(--f-base) var(--f-title);
+        text-transform: uppercase;
       }
     }   
   }
