@@ -2,6 +2,7 @@
 	display: grid;
 	grid-template-columns: 1fr max-content;
 	grid-template-areas: "body aside";
+	gap: var(--spacing);
 
 	.postbody { 
 		display: grid !important;
@@ -135,10 +136,12 @@
 
 		hgroup { 
 			margin-top: -2rem;
+			width: 350px;
 
 			.username { 
-				font: var(--f-2xl) var(--f-post-username);
+				font: 100 var(--f-3xl) var(--f-post-username);
 				text-transform: uppercase;
+				line-height: 1;
 
 				strong {
 					color: var(--text-1) !important;
