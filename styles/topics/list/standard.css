@@ -29,6 +29,11 @@
     .lastpost {
       display: flex; 
       align-items: center;
+      gap: 0 var(--spacing);
+
+      .avatar-lastpost-topic {
+        border: 10px solid var(--poster);
+      }
 
       .stack.column {
         gap: 0;
