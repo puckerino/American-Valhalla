@@ -18,5 +18,10 @@ main.posting {
   .post-options, .dices {
     border: 1px solid var(--border);
     margin-bottom: var(--spacing);
+
+    .page-subtitle {
+      border-bottom: 1px solid var(--border);
+      background: var(--accent-deco);
+    }
   }
 }
