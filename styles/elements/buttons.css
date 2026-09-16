@@ -1,0 +1,25 @@
+button, 
+.button,
+input[type="button"], 
+a[href$="?watch=forum"],
+input[type="file"], 
+input[type="submit"], 
+input[type="reset"], 
+.watchtopic a  {
+  font: var(--f-s) var(--f-buttons);
+  text-transform: uppercase;
+  background: var(--accent);
+  color: var(--text-1);
+  
+  &.button-action-post, 
+  &.button-contact, 
+  &.copy-button {
+    background: var(--poster-dark); 
+    color: contrast-color(var(--poster-darker))!important;
+  }
+  
+  &.rep-button {
+    background: var(--poster-dark);
+  }
+  
+}
