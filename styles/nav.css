@@ -9,6 +9,10 @@ nav {
   font: var(--f-s) var(--f-label);
   display: grid;
   grid-template-columns: repeat(2,1fr);
+
+  .logo {
+  font: var(--f-xl) var(--f-banner); text-transform: uppercase;
+}
   
   
   & > * {display: flex;align-items: center; gap: var(--spacing-s);}
@@ -41,3 +45,63 @@ nav {
     }
   }
 }
+
+/* ====== POPOVERS ====== */
+
+#notis-popover {
+    --popover-width: 30vw;
+    --popover-height: calc(100vh - var(--nav-size) - var(--spacing));
+    --popover-transform: translateX(100%);
+    --popover-transform-open: translateX(0);
+    margin-right: calc(var(--spacing) / 2);
+    margin-top: calc(var(--nav-size) + calc(var(--spacing)/2));
+    border: 1px solid var(--border);
+}
+
+#forumnavmenu {
+    --popover-width: 100%;
+    --popover-height: calc(100vh - var(--nav-size));
+    --popover-transform: translateX(-100%);
+    --popover-transform-open: translateX(0);
+    margin-top: var(--nav-size);
+    border: 0;
+
+    li.title {
+        font: bold var(--f-base) var(--f-title);
+        text-transform: uppercase;
+        border-bottom: 1px solid var(--accent);
+        width: 100%;
+    }
+
+    a {
+        font: var(--f-s) var(--f-metadata);
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-s);
+    }
+
+    svg {
+        height: 1rem;
+    }
+}
+
+#login-popover {
+    --popover-width: max-content;
+    --popover-height: max-content;
+    --popover-transform: translateY(-10%);
+    --popover-transform-open: translateY(0);
+    border: 1px solid var(--border);
+}
+
+#profile-popover {
+    --popover-width: 50vw;
+    --popover-height: calc(100vh - var(--nav-size) - var(--spacing));
+    --popover-transform: translateX(100%);
+    --popover-transform-open: translateX(0);
+    margin-right: calc(var(--spacing) / 2);
+    margin-top: calc(var(--nav-size) + calc(var(--spacing)/2));
+    overflow: auto;
+    border: 0;
+}
+
