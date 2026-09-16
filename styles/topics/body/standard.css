@@ -147,6 +147,7 @@
 			height: 350px;
 			display: flex;
 			align-items: flex-end;
+			padding: var(--spacing-l);
 			
 
 			.username { 
