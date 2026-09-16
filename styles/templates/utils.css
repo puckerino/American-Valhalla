@@ -1,7 +1,7 @@
 .post:has(sin-perfil) {
-  grid-template-columns: 1fr;
-  grid-template-areas: "body";
+  grid-template-columns: 1fr !important;
+  grid-template-areas: "body" !important;
   .profile {
-    display: none;
+    display: none !important;
   }
 }
