@@ -4,6 +4,10 @@
   grid-template-columns: repeat(3,1fr);
   gap: var(--spacing);
 
+	@media(max-width: 700px) {
+		--screen: mobile;
+	}
+
 
 	.lasttopics { 
     grid-column: 1 / -1;
@@ -17,6 +21,10 @@
       width: 100%;
       display: grid;
       grid-template-columns: repeat(4,1fr);
+
+			@container style(--screen: mobile) {
+				grid-templatep-columns; 1fr;
+		}
 
 			.lasttopic { 
         display: flex;
