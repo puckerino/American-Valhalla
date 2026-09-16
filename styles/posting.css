@@ -25,3 +25,11 @@ main.posting {
     }
   }
 }
+
+.topic-review {
+  .username {
+    font: var(--f-3xl) var(--f-title-deco);
+    text-transform: uppercase;
+    line-height: 1;
+  }
+}
