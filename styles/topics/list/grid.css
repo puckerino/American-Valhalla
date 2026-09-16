@@ -24,12 +24,6 @@
     display: flex;
     flex-direction: column;
     padding: 0;
-    border: 1px solid var(--border);
-
-    .announcement & {
-      justify-content: center;
-      align-items: center;
-    }
     
     .icon { 
       display: none;
@@ -57,30 +51,15 @@
     }
     
     .title { 
-      font: bold var(--f-2xl) var(--f-title-deco);
+       width: 300px;
+       line-height: 1;
+      font: var(--f-2xl) var(--f-title-deco);
+       text-transform: uppercase;
       width: 100%;
       padding: var(--spacing);
       text-align: left;
       margin-top: -1lh;
       position: relative;
-
-      .announcement & {
-        margin-top: 0;
-        font: 300 var(--f-xl) var(--f-metadata);
-        text-transform: uppercase;
-      }
-    }
-
-    .lastpost {    
-      justify-content: space-between;
-      width: 100%;
-      padding: var(--spacing);
-      border-top: 1px solid var(--border);
-      background: var(--background-elevated);
-
-      .announcement & {
-        display: none;
-      }
     }
   }
 }
