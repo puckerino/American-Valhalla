@@ -4,6 +4,14 @@
 	grid-template-areas: "body aside";
 	gap: var(--spacing);
 
+	&:has(sin-perfil) {
+  grid-template-columns: 1fr !important;
+  grid-template-areas: "body" !important;
+  .profile {
+    display: none !important;
+  }
+}
+
 	.postbody { 
 		display: grid !important;
 		grid-template-columns: 50px 1fr;
