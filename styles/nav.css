@@ -4,16 +4,25 @@ nav {
   padding: var(--spacing-s);
   background: var(--navbar);
   color: var(--navbar-text);
-  display: flex;
-  align-items: center;
   position: sticky;
   top: 0;
   z-index: 999;
   font: var(--f-s) var(--f-label);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   
-  & > * {display: flex;align-items: center;}
+  
+  & > * {display: flex;align-items: center; gap: var(--spacing-s);}
   
   i, svg {height: calc(var(--nav-size) / 2);width: calc(var(--nav-size) / 2);}
+
+  .breadcrumbs {
+    justify-content: center;
+  }
+
+  .user-nav {
+    justify-content: flex-end;
+  }
   
   .link-perfil { display: flex;align-items: center;gap: var(--spacing-s);}
 }
