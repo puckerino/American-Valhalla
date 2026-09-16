@@ -1,0 +1,48 @@
+.topiclist {
+
+  .topiclist-title {
+    font: var(--f-2xl) var(--f-title);
+    text-transform: uppercase;
+  }
+
+  .topic {
+    border: 1px solid var(--border);
+
+    & > .title {
+      font: var(--f-l) var(--f-title);
+      text-transform: uppercase;
+    }
+
+    .author {
+      font: bold var(--f-base) var(--f-text);
+      text-transform: uppercase;
+    }
+
+    .data {
+      font: var(--f-s) var(--f-mono);
+    }
+    
+    .icon img {
+      display: block !important;
+    }
+
+    .lastpost {
+      display: flex; 
+      align-items: center;
+
+      .stack.column {
+        gap: 0;
+
+        .username {
+          font: var(--f-base) var(--f-text);
+          text-transform: uppercase;
+        }
+
+        .date {
+          font: var(--f-s) var(--f-mono);
+          text-transform: uppercase;
+        }
+      }
+    }
+  }
+}
