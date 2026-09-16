@@ -59,10 +59,11 @@
         
         .guidebook-subject {
           width: 100%;
-          font: var(--f-2xl) var(--f-title-deco);
+          font: var(--f-2xl) var(--f-title);
           padding: var(--spacing-2xl);
           border-bottom: 1px solid var(--border);
-          text-transform: uppercase;          
+          text-transform: uppercase;     
+          background: linear-gradient(150deg, transparent 70%, var(--accent) 200%);
         }
 
         .data .profile-icons {
