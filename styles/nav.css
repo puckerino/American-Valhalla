@@ -107,6 +107,10 @@ nav {
     --popover-transform: translateY(-10%);
     --popover-transform-open: translateY(0);
     border: 1px solid var(--border);
+
+  .close-button {
+    place-self: end;
+  }
 }
 
 #profile-popover {
