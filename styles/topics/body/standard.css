@@ -68,15 +68,15 @@
 				font: bold var(--f-s) var(--f-text);
 				text-transform: uppercase;
 				letter-spacing: .1ch;
-				padding: 0 var(--spacing);
+				padding: 0 var(--spacing-s);
 				flex-grow: 1;
 			}
 			
 			.contact { 
 				display: flex;
 				align-items: center;
-				gap: var(--spacing);
-				padding-right: var(--spacing);
+				gap: var(--spacing-s);
+				padding-right: var(--spacing-s);
 				
 				li { 
 					display: flex;
@@ -90,7 +90,7 @@
 		.data { 
 			grid-area: data;
 			border-right: 1px solid var(--border);
-			padding: var(--spacing) 0;
+			padding: var(--spacing-s) 0;
 			background: linear-gradient(150deg, transparent 70%, var(--poster) 200%);
 			display: flex;
 			flex-direction: column;
@@ -108,7 +108,7 @@
 			.profile-icons { 
 							height: max-content;
 			position: sticky;
-			top: var(--spacing);
+			top: var(--spacing-s);
 				display: flex;
 				flex-direction: column;
 				align-items: center;
@@ -174,7 +174,7 @@
 
 .stats-popover {
 	background: var(--poster-dark);
-	margin-right: var(--spacing);
+	margin-right: var(--spacing-s);
 }
 
 .character-stats-popover {
@@ -211,7 +211,7 @@
 				min-width: 20%;
 				flex-grow: 1;
 				height: 1em;
-				border-bottom: 1px dotted var(--border);
+				border-bottom: 1px dotted var(--mono-4);
 			}
 		}
 	}		
