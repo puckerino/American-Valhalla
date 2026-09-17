@@ -1,6 +1,10 @@
 
 .viewcomments_body {
 
+  .page-title.topic-title {
+    border-bottom: 0!important;
+  }
+
   .guidebook-wrap {
     display: grid;
     grid-template-columns: 20vw 1fr;
