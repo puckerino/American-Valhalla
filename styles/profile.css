@@ -6,11 +6,13 @@ main.profile {
     min-height: 60px;
     gap: var(--spacing);
     padding: var(--spacing);
-    border-radius: var(--spacing);
-    corner-shape: squircle bevel square square;
+    border-radius: var(--spacing) var(--spacing-5xl) var(--spacing) var(--spacing);
+    corner-shape: square bevel square square;
     border-top: 1px solid var(--border);
     border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
+    width: max-content;
+    min-width: 50vw;
   }
 
   .sistema {
@@ -40,31 +42,40 @@ main.profile {
 
     div[data-profile-render-value] > div {
       display: grid;
-      grid-template-columns: 1fr .25fr;
+      grid-template-columns: max-content 1fr;
       grid-template-areas: "titulo nivel" "desc desc";
       border: 1px solid transparent;
-      padding: var(--spacing-s);
-
-      .positivos & {
-        border: 1px solid green;
-      }
-
-      .negativos & {
-        border: 1px solid red;
-      }
-
-      .neutros & {
-        border: 1px solid var(--border);
-      }
+      gap: 0 var(--spacing);
 
       u {
         grid-area: titulo;
-        font: bold var(--f-base) var(--f-mono);
+        font: 600 var(--f-base) var(--f-mono);
         text-decoration: none;
+        padding: var(--spacing-xs) var(--spacing-s);
+        text-transform: uppercase;
+
+        .positivos & {
+          background: green;
+        }
+
+        .neutros & {
+          background: var(--mono-3);
+        }
+
+        .negativos & {
+          background: var(--accent);
+        }
       }
 
       strong {
         grid-area: nivel;
+        display: flex;
+        align-items: center;
+        gap: var(--spacing-xs);
+
+        &:before {
+          content: "NIVEL";
+        }
       }
 
       i {
