@@ -52,6 +52,7 @@
       .post.blog {
         display: flex;
         flex-direction: column;
+        gap: 0!important;
 
         &:not(:last-of-type) {
           border-bottom: 1px solid var(--border);
