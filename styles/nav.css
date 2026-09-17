@@ -45,7 +45,7 @@ nav {
 
     button {
       background: var(--accent);
-      font: bold var(--f-base) var(--f-text);
+      font: bold var(--f-s) var(--f-text);
       text-transform: uppercase;
       padding: var(--spacing-xs) var(--spacing);
     }
@@ -61,6 +61,8 @@ nav {
       font: var(--f-l) var(--f-title-deco);
       text-transform: uppercase;
       line-height: 1;
+          text-box-edge: cap alphabetic;
+   text-box-trim: trim-both;
     }
   }
 }
