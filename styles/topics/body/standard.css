@@ -186,4 +186,29 @@
 	@container style(--screen: mobile) {
 		--popover-width: 100%;
 	}
+
+	.atributo, .habilidad {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		text-transform: uppercase;
+		gap: var(--spacing);
+		align-items: center;
+
+		& > span {
+			font: 800 var(--f-base) var(--f-mono);
+			display: flex;
+			gap: var(--spacing);
+			align-items: flex-end;
+			flex-grow: 1;
+
+			&:after {
+				content: "";
+				min-width: 20%;
+				flex-grow: 1;
+				height: 1em;
+				border-bottom: 1px dotted var(--border);
+			}
+		}
+	}		
 }
