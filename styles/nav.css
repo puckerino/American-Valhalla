@@ -80,7 +80,7 @@ nav {
 }
 
 #forumnavmenu {
-    --popover-width: 100%;
+    --popover-width: 30vw;
     --popover-height: calc(100vh - var(--nav-size));
     --popover-transform: translateX(-100%);
     --popover-transform-open: translateX(0);
@@ -95,15 +95,11 @@ nav {
     }
 
     a {
-        font: var(--f-s) var(--f-metadata);
+        font: var(--f-base) var(--f-metadata);
         text-transform: uppercase;
         display: flex;
         align-items: center;
         gap: var(--spacing-s);
-    }
-
-    svg {
-        height: 1rem;
     }
 }
 
