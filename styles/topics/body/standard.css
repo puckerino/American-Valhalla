@@ -121,8 +121,12 @@
 
 		.content { 
 			grid-area: message;
-			padding: var(--spacing-5xl);
+			padding: var(--spacing-2xl);
 			font: var(--f-base) var(--f-text);
+
+			&:has(.av-standard, av-rol) {
+				padding: var(--spacing-5xl);
+			}
 		}
 	}
 
