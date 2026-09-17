@@ -1,0 +1,13 @@
+.localizacion {
+      max-width: 300px;
+    border: 10px solid var(--text-4);
+    border-bottom: 80px solid var(--text-4);
+    place-self: center;
+    transform: rotate(-2deg);
+
+img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+}
+}
