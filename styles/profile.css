@@ -1,5 +1,10 @@
 main.profile {
 
+  .profile-top {
+    align-items: end !important;
+    gap: 0!important;
+  }
+
   .profile-admin {
     display: flex;
     align-items: center;
