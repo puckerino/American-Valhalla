@@ -1,0 +1,12 @@
+.topiclist.blog {
+  display: flex;
+  flex-direction: column;
+  .topic.blog {
+    display: grid;
+    grid-template-columns: 60px 1fr !important;
+    grid-template-rows: 1fr !important;
+    grid-template-areas: "icon title" !important;
+
+  .topic-type {display: none;}
+  }
+}
