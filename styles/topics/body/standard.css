@@ -168,8 +168,13 @@
 	}
 }
 
+.stats-popover {
+	background: var(--poster-dark);
+	margin-right: var(--spacing);
+}
+
 .character-stats-popover {
-    --popover-width: 50vw;
+    --popover-width: 30vw;
     --popover-height: calc(100vh - var(--nav-size));
     --popover-transform: translateX(100%);
     --popover-transform-open: translateX(0);
@@ -177,4 +182,8 @@
     margin-top: var(--nav-size);
     overflow: auto;
     border: 0;
+
+	@container style(--screen: mobile) {
+		--popover-width: 100%;
+	}
 }
