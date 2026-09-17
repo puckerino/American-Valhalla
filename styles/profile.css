@@ -100,7 +100,7 @@ main.profile {
         }
 
         .positivos & {
-          background: green;
+          background: #757d43;
         }
 
         .neutros & {
