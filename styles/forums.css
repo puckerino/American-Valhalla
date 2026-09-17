@@ -36,10 +36,27 @@
     grid-template-columns: repeat(2,1fr);
     grid-template-areas: "title title" "desc links" "lastpost lastpost";
     border: 1px solid var(--border);
-
-  .forum-img {
-    display: none;
+    
+    .forum-img {
+      display: none;
+    }
   }
+
+  &:has(.links:empty) {
+    --forum-rows: 3;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: "title img" "desc img" "lastpost img";
+
+    .links {display: none;}
+  }
+
+  &:has(.links:empty):has(.forum-img:empty) {
+    --forum-rows: 3;
+    grid-template-columns: 1fr;
+    grid-template-areas: "title" "desc" "lastpost";
+    border: 1px solid var(--border);
+
+    .forum-img, .links {display: none;}
   }
 
   .data, .icon {
