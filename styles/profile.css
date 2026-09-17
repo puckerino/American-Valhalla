@@ -1,5 +1,9 @@
 main.profile {
 
+  .sistema {
+    align-items: start!important;
+  }
+
   .stats {
     align-items: start !important;
 
@@ -11,6 +15,48 @@ main.profile {
 
       span {
         font: bold var(--f-base) var(--f-mono);
+      }
+    }
+  }
+
+  .trasfondos {
+    h3 {
+      font: var(--f-base) var(--f-title);
+      text-transform: uppercase;
+    }
+
+    div[data-profile-render-value] > div {
+      display: grid;
+      grid-template-columns: 1fr .25fr;
+      grid-template-areas: "titulo nivel" "desc desc";
+      border: 1px solid transparent;
+      padding: var(--spacing-s);
+
+      .positivos & {
+        border: 1px solid green;
+      }
+
+      .negativos & {
+        border: 1px solid red;
+      }
+
+      .neutros & {
+        border: 1px solid var(--border);
+      }
+
+      u {
+        grid-area: titulo;
+        font: bold var(--f-base) var(--f-mono);
+        text-decoration: none;
+      }
+
+      strong {
+        grid-area: nivel;
+      }
+
+      i {
+        grid-area: desc;
+        font: normal var(--f-base) var(--f-text);
       }
     }
   }
