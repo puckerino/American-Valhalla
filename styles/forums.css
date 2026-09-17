@@ -5,6 +5,10 @@
       text-transform: uppercase;
     }
   }
+
+  &:not(:last-of-type) {
+    margin-bottom: var(--spacing-5xl);
+  }
 }
 
 .forum-wrap {
