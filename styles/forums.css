@@ -1,13 +1,13 @@
+.category-wrap:not(:last-of-type) {
+    margin-bottom: var(--spacing-5xl);
+  }
+
 .category {
   hgroup {
     h2 {
       font: 200 var(--f-5xl) var(--f-category-title);
       text-transform: uppercase;
     }
-  }
-
-  &:not(:last-of-type) {
-    margin-bottom: var(--spacing-5xl);
   }
 }
 
