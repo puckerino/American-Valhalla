@@ -56,6 +56,9 @@
     text-transform: uppercase;
     border-bottom: 1px solid var(--border);
     padding: var(--spacing);
+    text-box-edge: cap alphabetic;
+   text-box-trim: trim-both;
+    line-height: 1;
   }
 
   .links {
@@ -107,6 +110,9 @@
         a {
           font: var(--f-base) var(--f-title-deco);
           text-transform: uppercase;
+          text-box-edge: cap alphabetic;
+text-box-trim: trim-both;
+          line-height: 1;
         }
       }
 
