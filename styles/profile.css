@@ -35,6 +35,11 @@ main.profile {
   }
 
   .trasfondos {
+
+    @media (min-width: 701px) {
+      width: 25vw;
+    }
+    
     h3 {
       font: var(--f-base) var(--f-title);
       text-transform: uppercase;
@@ -45,7 +50,7 @@ main.profile {
       grid-template-columns: max-content 1fr;
       grid-template-areas: "titulo nivel" "desc desc";
       border: 1px solid transparent;
-      gap: 0 var(--spacing);
+      gap: var(--spacing-s) var(--spacing);
 
       u {
         grid-area: titulo;
