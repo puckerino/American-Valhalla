@@ -1,0 +1,11 @@
+main.profile {
+
+  .stats {
+    align-items: start !important;
+
+    .atributo, .habilidad {
+      display: grid;
+      grid-template-columns: 1fr .25fr;
+    }
+  }
+}
