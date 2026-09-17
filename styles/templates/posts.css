@@ -8,4 +8,18 @@ LEGACY
   text-wrap: balance;
   font: var(--f-base) var(--f-text);
   line-height: 1.5;
+
+  .titulo-sta {
+        font: var(--f-2xl) var(--f-title);
+    text-transform: uppercase;
+  }
+
+  .subtitulo-sta {
+        border-top: 1px solid var(--border);
+    font: var(--f-base) var(--f-mono);
+    text-transform: uppercase;
+    font-weight: 900;
+    padding-top: var(--spacing);
+    text-align: right;
+  }
 }
