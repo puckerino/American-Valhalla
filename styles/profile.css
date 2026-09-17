@@ -33,6 +33,22 @@ main.profile {
     border-bottom: 1px solid var(--border);
   }
 
+  .profile-hero {
+    display: grid;
+    padding: var(--spacing);
+
+    .profile-hero-data {
+      display: flex;
+      flex-direction: column;
+      
+      .username {
+        font: var(--f-3xl) var(--f-title-deco);
+        text-transform: uppercase;
+        line-height: 1;
+      }
+    }
+  }
+
   .sistema {
     align-items: start!important;
   }
@@ -61,10 +77,10 @@ main.profile {
 
     div[data-profile-render-value] > div {
       display: grid;
-      grid-template-columns: max-content 1fr;
-      grid-template-areas: "titulo nivel" "desc desc";
+      grid-template-columns: .5fr .25fr 1fr;
+      grid-template-areas: "titulo nivel desc";
       border: 1px solid transparent;
-      gap: var(--spacing-s) var(--spacing);
+      gap: var(--spacing-s);
 
       u {
         grid-area: titulo;
