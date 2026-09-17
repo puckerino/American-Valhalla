@@ -82,12 +82,21 @@ main.profile {
       border: 1px solid transparent;
       gap: var(--spacing-s);
 
+      @container style(--screen: mobile) {
+        display: flex;
+        flex-direction: column;
+      }
+
       u {
         grid-area: titulo;
         font: 600 var(--f-base) var(--f-mono);
         text-decoration: none;
         padding: var(--spacing-xs) var(--spacing-s);
         text-transform: uppercase;
+
+        @container style(--screen: mobile) {
+          width: max-content;
+        }
 
         .positivos & {
           background: green;
