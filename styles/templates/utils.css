@@ -5,3 +5,15 @@
     display: none !important;
   }
 }
+
+div:has([no-br]), article:has([no-br]), section:has([no-br]) {
+  br {
+    display: none;
+  }
+}
+
+div:has([yes-br]), article:has([yes-br]), section:has([yes-br]) {
+  br {
+    display: block !important;
+  }
+}
