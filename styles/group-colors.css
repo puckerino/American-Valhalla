@@ -5,8 +5,8 @@
    &:has(.group-5), &.post-group-5  {--poster: var(--group-5);}
    &:has(.group-6), &.post-group-6  {--poster: var(--group-6);}
   
-  --poster-dark: color-mix(in srgb, var(--poster), var(--mono-contrast) 10%);
-  --poster-darker: color-mix(in srgb, var(--poster), var(--mono-contrast) 50%);
+  --poster-dark: color-mix(in srgb, var(--poster), var(--mono-1) 10%);
+  --poster-darker: color-mix(in srgb, var(--poster), var(--mono-1) 50%);
   --shadow-poster: drop-shadow(0 0 0.75rem var(--poster));
   --shadow-poster-dark: drop-shadow(0 0 0.75rem var(--poster-dark));
   --poster-deco: radial-gradient(ellipse 70% 60% at 50% 0%, color-mix(in srgb, var(--poster), transparent 85%), transparent);
