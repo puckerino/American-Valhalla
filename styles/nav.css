@@ -111,6 +111,10 @@ nav {
   .close-button {
     place-self: end;
   }
+
+  input[type="submit"] {
+    width: 100%;
+  }
 }
 
 #profile-popover {
