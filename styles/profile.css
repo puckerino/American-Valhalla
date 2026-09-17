@@ -71,7 +71,7 @@ main.profile {
   .trasfondos {
     
     h3 {
-      font: var(--f-base) var(--f-title);
+      font: var(--f-l) var(--f-title);
       text-transform: uppercase;
     }
 
@@ -85,6 +85,7 @@ main.profile {
       @container style(--screen: mobile) {
         display: flex;
         flex-direction: column;
+        gap: var(--spacing-xs);
       }
 
       u {
