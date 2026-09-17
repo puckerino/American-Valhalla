@@ -29,9 +29,24 @@ nav {
   }
     
 
-  .user-nav {
+  .user-nav, .guest-nav {
     justify-content: flex-end;
   }
+
+  .guest-nav {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing);
+    padding-right: var(--spacing);
+
+    button {
+      background: var(--accent);
+      font: bold var(--f-base) var(--f-text);
+      text-transform: uppercase;
+      padding: var(--spacing-xs) var(--spacing);
+    }
+  }
+    
   
   .link-perfil {
     display: flex;
