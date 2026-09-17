@@ -19,9 +19,12 @@ main.posting {
     border: 1px solid var(--border);
     margin-bottom: var(--spacing);
 
-    .page-subtitle {
+    hgroup:has(.page-subtitle) {
       border-bottom: 1px solid var(--border);
       background: var(--accent-deco);
+      display: flex;
+      align-items: center;
+      gap: var(--spacing);
     }
   }
 }
