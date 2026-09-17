@@ -1,0 +1,11 @@
+/* ============================================
+LEGACY
+=============================================== */
+
+.av-standard {
+  max-width: 60ch;
+  margin: 0 auto;
+  text-wrap: balance;
+  font: var(--f-base) var(--f-text);
+  line-height: 1.5;
+}
