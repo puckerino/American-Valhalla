@@ -128,7 +128,7 @@
         text-transform: uppercase;
         gap: var(--spacing);
 
-        a {
+        a.gensmall {
           font: var(--f-base) var(--f-title-deco);
           text-transform: uppercase;
           text-box-edge: cap alphabetic;
