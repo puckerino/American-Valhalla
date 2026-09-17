@@ -75,7 +75,7 @@
 			.contact { 
 				display: flex;
 				align-items: center;
-				gap: var(--spacing-s);
+				gap: var(--spacing);
 				padding-right: var(--spacing);
 				
 				li { 
