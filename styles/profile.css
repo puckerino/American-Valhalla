@@ -6,6 +6,11 @@ main.profile {
     .atributo, .habilidad {
       display: grid;
       grid-template-columns: 1fr .25fr;
+      text-transform: uppercase;
+
+      span {
+        font: bold var(--f-base) var(--f-mono);
+      }
     }
   }
 }
