@@ -23,6 +23,10 @@ nav {
     display: none;
   }
 
+  .forum-nav {
+    padding-left: var(--spacing);
+  }
+
   .admin-nav a {
     background: var(--accent);
     padding: var(--spacing-xs) var(--spacing-s);
