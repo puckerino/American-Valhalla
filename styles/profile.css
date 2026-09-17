@@ -53,10 +53,6 @@ main.profile {
   }
 
   .trasfondos {
-
-    @media (min-width: 701px) {
-      width: 25vw;
-    }
     
     h3 {
       font: var(--f-base) var(--f-title);
