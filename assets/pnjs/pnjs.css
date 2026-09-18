@@ -1,3 +1,15 @@
 :root {
-  --theodore: url();
+  --theodore: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
+}
+
+.post:has([pnj="theodore"]) {
+  --pnj: theodore;
+}
+
+.post:has([pnj]) {
+  .profile .avatar-post img {
+    @container style(--pnj: theodore) {
+      src: var(--theodore);
+    }
+  }
 }
