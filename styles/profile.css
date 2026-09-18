@@ -130,3 +130,14 @@ main.profile {
     }
   }
 }
+
+#profile-popover {
+    --popover-width: 50vw;
+    --popover-height: calc(100vh - var(--nav-size));
+    --popover-transform: translateX(100%);
+    --popover-transform-open: translateX(0);
+    margin-right: 0;
+    margin-top: var(--nav-size);
+    overflow: auto;
+    border: 0;
+}
