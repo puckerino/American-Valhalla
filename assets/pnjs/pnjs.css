@@ -25,7 +25,7 @@
     }
 }
 
-.post:has([pnj="theodore"]) {
+.post:has([pnj="Theodore"]) {
     .avatar-post {background: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);}
     .username:before {content: "Theodore";}
 }
