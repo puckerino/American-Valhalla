@@ -12,16 +12,16 @@
     }
 
 		.ficha-simbolo { 
-      position: absolute;
-      top: 0;
-      left: 0;
-			height: 100%;
-			width: 60%;
-			background: var(--poster-dark);
-			opacity: .8;
-			mask-image: var(--simbolo);
-			mask-size: contain;
-			mask-repeat: no-repeat;
+            position: absolute;
+            top: -50%;
+            left: -10%;
+            height: 150%;
+            width: 150%;
+            background: var(--poster-dark);
+            opacity: .3;
+            mask-image: var(--simbolo);
+            mask-size: contain;
+            mask-repeat: no-repeat;
 
 			@container style(--pj: julie) {
 				--simbolo: url(https://i.imgur.com/8LC1F38.png);
