@@ -23,7 +23,7 @@
 			mask-size: contain;
 			mask-repeat: no-repeat;
 
-			container style(--pj: julie) {
+			@container style(--pj: julie) {
 				--simbolo: url(https://i.imgur.com/8LC1F38.png);
 			}
 		}
