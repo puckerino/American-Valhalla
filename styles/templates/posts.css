@@ -1,3 +1,9 @@
+blockquote {
+  border: 1px solid var(--poster-dark);
+  padding: var(--spacing);
+  background: var(--poster-deco);
+}
+
 /* ============================================
 LEGACY
 =============================================== */
