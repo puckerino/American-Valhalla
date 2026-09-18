@@ -18,6 +18,7 @@
     .avatar-post {
         width: var(--avatar-post-width);
         height: var(--avatar-post-height);
+        mask-image: linear-gradient(to bottom, black, transparent);
 
         img {
             display: none;
