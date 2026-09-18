@@ -3,4 +3,33 @@
   br {
     display: none;
   }
+
+  .reply-form-title {
+    padding: var(--spacing);
+    font: var(--f-xl) var(--f-title);
+    text-transform: uppercase;
+  }
+
+  label {
+    font: 900 var(--f-base) var(--f-mono);
+    text-transform: uppercase;
+  }
+
+  input, textarea {
+    width: 100%;
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .topic-actions.topic-actions-bottom {
+    padding: var(--spacing);
+    border-top: 1px solid var(--border);
+
+    button {
+      width: 100%;
+      text-align: center;
+    }
+  }
 }
