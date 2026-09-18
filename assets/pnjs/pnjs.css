@@ -3,13 +3,30 @@
 }
 
 .post:has([pnj="theodore"]) {
-  --pnj: theodore;
+  --pnj: var(--theodore);
+  --pnjname: "Theodore";
 }
 
 .post:has([pnj]) {
-  .profile .avatar-post img {
-    @container style(--pnj: theodore) {
-      src: var(--theodore);
+  .profile {
+    .username strong {
+      font-size: 0;
+
+      &:before {
+        content: var(--pnjname);
+        font-size: var(--f-3xl) !important;
+        font-weight: 100;
+        font-family: var(--f-post-username);
+                text-transform: uppercase;
+                line-height: 1;
+      }
     }
+    .avatar-post {
+    background: var(--pnj);
+    mask-image: linear-gradient(to bottom, black, transparent);
+    img {
+      display: none;
+    }
+  }
   }
 }
