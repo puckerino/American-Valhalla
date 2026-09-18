@@ -15,6 +15,17 @@
       position: absolute;
       top: 0;
       left: 0;
+			height: 100%;
+			width: 60%;
+			background: var(--poster-dark);
+			opacity: .8;
+			mask-image: var(--simbolo);
+			mask-size: contain;
+			mask-repeat: no-repeat;
+
+			container style(--pj: julie) {
+				--simbolo: url(https://i.imgur.com/8LC1F38.png);
+			}
 		}
 
 		.ficha-name { 
