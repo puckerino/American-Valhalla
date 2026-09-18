@@ -5,6 +5,7 @@
     grid-template-columns: repeat(2,1fr);
     gap: var(--spacing);
     position: relative;
+		overflow: clip;
 
     @container style(--screen: mobile) {
       grid-template-columns: 1fr 150px;
@@ -33,6 +34,7 @@
       flex-direction: column;
       gap: 0;
 			place-self: center;
+			position: relative;
 
 			span { 
         font-family: var(--f-title-deco);
