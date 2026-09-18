@@ -6,13 +6,13 @@
   }
 }
 
-.content.message > div:has([no-br]), .content.message > article:has([no-br]), .content.message > section:has([no-br]) {
+[no-br] {
  & > br {
     display: none;
   }
 }
 
-.content.message > div:has([yes-br]), .content.message > article:has([yes-br]), .content.message > section:has([yes-br]) {
+[yes-br] {
   & > br {
     display: block !important;
   }
