@@ -4,10 +4,17 @@
 	align-items: center;
 	justify-content: center;
 
-	&:after {
-		content: "NÚMERO DE TEMA" attr(topicid);
+	.topicid {
 		font: var(--f-base) var(--f-mono);
 		color: var(--text-subtle);
+		text-align: center;
+		display: flex;
+		align-items: center;
+		gap: var(--spacing);
+
+		& > span {
+			font-weight: 900;
+		}	
 	}
 }
 
