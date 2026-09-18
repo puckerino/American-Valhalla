@@ -71,12 +71,12 @@ nav {
 
 #notis-popover {
     --popover-width: 30vw;
-    --popover-height: calc(100vh - var(--nav-size) - var(--spacing));
+    --popover-height: calc(100vh - var(--nav-size));
     --popover-transform: translateX(100%);
     --popover-transform-open: translateX(0);
-    margin-right: calc(var(--spacing) / 2);
-    margin-top: calc(var(--nav-size) + calc(var(--spacing)/2));
-    border: 1px solid var(--border);
+    margin-right: 0;
+    margin-top: var(--nav-size);
+    border: 0;
 }
 
 #forumnavmenu {
@@ -85,6 +85,7 @@ nav {
     --popover-transform: translateX(-100%);
     --popover-transform-open: translateX(0);
     margin-top: var(--nav-size);
+  margin-left: 0;
     border: 0;
 
     li.title {
@@ -119,14 +120,5 @@ nav {
   }
 }
 
-#profile-popover {
-    --popover-width: 50vw;
-    --popover-height: calc(100vh - var(--nav-size) - var(--spacing));
-    --popover-transform: translateX(100%);
-    --popover-transform-open: translateX(0);
-    margin-right: calc(var(--spacing) / 2);
-    margin-top: calc(var(--nav-size) + calc(var(--spacing)/2));
-    overflow: auto;
-    border: 0;
-}
+
 
