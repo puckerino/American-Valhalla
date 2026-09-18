@@ -21,11 +21,14 @@
         }
 
         .avatar-post {
-            background: var(--pnjimg);
-                    width: var(--avatar-post-width);
-        height: var(--avatar-post-height);
+             width: var(--avatar-post-width);
+             height: var(--avatar-post-height);
             img {
                 display: none;
+            }
+
+            @container style(--pnj: theodore) {
+                backgroung: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
             }
         }
 }
