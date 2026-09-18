@@ -1,8 +1,3 @@
-.post:has([pnj="theodore"]) {
-    --pnj: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
-    --pnjname: "Theodore";
-}
-
 .post:has([pnj]) {
     .profile {
         .username strong {
@@ -25,4 +20,9 @@
             }
         }
     }
+}
+
+.post:has([pnj="theodore"]) {
+    --pnj: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
+    --pnjname: "Theodore";
 }
