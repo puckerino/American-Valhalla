@@ -1,0 +1,6 @@
+.fa-generated-reply-form {
+  border: 1px solid var(--border);
+  br {
+    display: none;
+  }
+}
