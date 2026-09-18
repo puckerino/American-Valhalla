@@ -6,14 +6,26 @@
   }
 }
 
-div:has([no-br]), article:has([no-br]), section:has([no-br]) {
+.content.message > div:has([no-br]), .content.message > article:has([no-br]), .content.message > section:has([no-br]) {
+ & > br {
+    display: none;
+  }
+}
+
+.content.message > div:has([yes-br]), .content.message > article:has([yes-br]), .content.message > section:has([yes-br]) {
+  & > br {
+    display: block !important;
+  }
+}
+
+.av-table {
+  gap: var(--spacing-s);
+  column-rule: 1px solid var(--border);
+  row-rule: 1px solid var(--border);
+  
   br {
     display: none;
   }
 }
 
-div:has([yes-br]), article:has([yes-br]), section:has([yes-br]) {
-  br {
-    display: block !important;
-  }
-}
+  
