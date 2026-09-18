@@ -1,33 +1,51 @@
+.post:has([pnj]) {
 
-
-.post:has([pnj]) .profile {
-    .username strong {
-        font-size: 0;
+    .avatar-post-mobile,
+    .avatar-post {
+        img {
+            display: none;
+        }
     }
 
-
-    .username:before {
-        font-size: var(--f-3xl) !important;
-        font-weight: 100;
-        font-family: var(--f-post-username);
-        text-transform: uppercase;
-        line-height: 1;
+    .avatar-post-mobile {
+        height: var(--avatar-post-mobile-height);
+        width: var(--avatar-post-mobile-width);
     }
 
     .avatar-post {
         width: var(--avatar-post-width);
         height: var(--avatar-post-height);
         mask-image: linear-gradient(to bottom, black, transparent);
+    }
 
-        img {
-            display: none;
+    .username {
+
+        strong {
+            font-size: 0;
         }
+
+        &:before {
+            font-size: var(--f-3xl) !important;
+            font-weight: 100;
+            font-family: var(--f-post-username);
+            text-transform: uppercase;
+            line-height: 1;
+        }
+    }
+
+    button.stats-popover {
+        display: none;
     }
 }
 
 .post:has([pnj="Theodore"]) {
-    .avatar-post {background: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);}
-    .username:before {content: "Theodore";}
-}
 
-    
+    .avatar-post,
+    .avatar-post-mobile {
+        background: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
+    }
+
+    .username:before {
+        content: "Theodore";
+    }
+}
