@@ -1,0 +1,61 @@
+.av-ficha-personaje { 
+
+	.ficha-hero { 
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: var(--spacing);
+    position: relative;
+
+    @container style(--screen: mobile) {
+      grid-template-columns: 1fr 150px;
+      gap: var(--spacing);
+    }
+
+		.ficha-simbolo { 
+      position: absolute;
+      top: 0;
+      left: 0;
+		}
+
+		.ficha-name { 
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+
+			span { 
+        font-family: var(--f-title-deco);
+        text-transform: uppercase;
+        line-height: 1;
+
+        &:first-of-type {
+          font-size: var(--f-5xl);
+
+          @container style(--screen: mobile) {
+            font-size: var(--f-3xl);
+          }
+        }
+
+        &:last-of-type {
+          font-size: var(--f-2xl);
+        }
+			}
+		}
+
+		.ficha-imagen { 
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+			img { 
+        height: 300px;
+        width: 300px;
+        object-fit: cover;
+
+        @container style(--screen: mobile) {
+          height: 150px;
+          width: 150px;
+        }
+			}
+		}
+	}
+}
