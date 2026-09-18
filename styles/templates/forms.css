@@ -8,11 +8,16 @@
     padding: var(--spacing);
     font: var(--f-xl) var(--f-title);
     text-transform: uppercase;
+    border-bottom: 1px solid var(--border);
+    background: var(--accent-deco);
   }
 
   label {
     font: 900 var(--f-base) var(--f-mono);
     text-transform: uppercase;
+    padding: var(--spacing-s) var(--spacing);
+    background: var(--accent);
+    width: max-content;
   }
 
   input, textarea {
