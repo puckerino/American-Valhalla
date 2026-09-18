@@ -9,6 +9,7 @@
     background: var(--poster-dark);
     padding: var(--spacing-xs) var(--spacing-s);
     width: max-content;
+    text-transform: uppercase;
   }
 }
 
