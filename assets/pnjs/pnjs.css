@@ -1,32 +1,28 @@
-:root {
-  --theodore: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
-}
-
 .post:has([pnj="theodore"]) {
-  --pnj: var(--theodore);
-  --pnjname: "Theodore";
+    --pnj: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
+    --pnjname: "Theodore";
 }
 
 .post:has([pnj]) {
-  .profile {
-    .username strong {
-      font-size: 0;
+    .profile {
+        .username strong {
+            font-size: 0;
 
-      &:before {
-        content: var(--pnjname);
-        font-size: var(--f-3xl) !important;
-        font-weight: 100;
-        font-family: var(--f-post-username);
+            &:before {
+                content: var(--pnjname);
+                font-size: var(--f-3xl) !important;
+                font-weight: 100;
+                font-family: var(--f-post-username);
                 text-transform: uppercase;
                 line-height: 1;
-      }
+            }
+        }
+
+        .avatar-post {
+            background: var(--pnj);
+            img {
+                display: none;
+            }
+        }
     }
-    .avatar-post {
-    background: var(--pnj);
-    mask-image: linear-gradient(to bottom, black, transparent);
-    img {
-      display: none;
-    }
-  }
-  }
 }
