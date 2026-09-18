@@ -6,8 +6,10 @@
 .post:has([pnj]) .profile {
         .username strong {
             font-size: 0;
+        }
 
-            &:before {
+    
+            .username:before {
                 font-size: var(--f-3xl) !important;
                 font-weight: 100;
                 font-family: var(--f-post-username);
@@ -18,7 +20,6 @@
                     content: "Theodore";
                 }
             }
-        }
 
         .avatar-post {
              width: var(--avatar-post-width);
@@ -28,7 +29,7 @@
             }
 
             @container style(--pnj: theodore) {
-                backgroung: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
+                background: url(https://puckerino.github.io/American-Valhalla/assets/pnjs/theodore.avif);
             }
         }
 }
