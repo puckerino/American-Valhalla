@@ -20,11 +20,21 @@
 
 .av-table {
   gap: var(--spacing-s);
+  border: 1px solid var(--border);
   column-rule: 1px solid var(--border);
   row-rule: 1px solid var(--border);
   
   br {
     display: none;
+  }
+
+  span {
+    padding: var(--spacing-xs);
+    text-align: center;
+
+    &.title {
+      font-weight: 900;
+    }
   }
 }
 
