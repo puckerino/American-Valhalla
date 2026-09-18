@@ -1,10 +1,24 @@
-blockquote {
+.content.message {
+  h3 {
+    font: var(--f-l) var(--f-title);
+    text-transform: uppercase;
+  }
+
+  h4 {
+    font: 900 var(--f-base) var(--f-mono);
+    background: var(--poster-dark);
+    padding: var(--spacing-xs) var(--spacing-s);
+    width: max-content;
+  }
+}
+
+.content.message blockquote {
   border: 1px solid var(--poster-dark);
   padding: var(--spacing);
   background: var(--poster-deco);
 }
 
-.codebox {
+.content.message .codebox {
     border: 1px solid var(--poster-dark);
     margin: 0;
     margin-top: var(--spacing-s);
