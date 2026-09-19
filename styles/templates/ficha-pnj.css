@@ -2,6 +2,7 @@
   display: grid;
   grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
   position: relative;
+	gap: var(--spacing);
   
   .ficha-imagen { 
     position: absolute;
@@ -20,7 +21,7 @@
     display: grid;
     grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
     background: var(--surface-elevated);
-		padding: var(--spacing-xl);
+		padding: var(--spacing-2xl);
 
 		.ficha-nombre { 
       grid-column: 2;
