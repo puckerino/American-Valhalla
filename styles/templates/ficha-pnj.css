@@ -1,0 +1,48 @@
+.av-ficha-pnj { 
+  display: grid;
+  grid-template-columns: calc(200px + var(--spacing) 1fr;
+  position: relative;
+  
+  .ficha-imagen { 
+    position: absolute;
+    top: var(--spacing);
+    left: var(--spacing);
+
+			img { 
+        object-fit: cover;
+        width: 200px;
+        height: 200px;
+			}
+		}
+
+	.ficha-hero { 
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: calc(200px + var(--spacing) 1fr;
+    background: var(--surface-elevated);
+
+		.ficha-nombre { 
+      grid-column: 2;
+      font: var(--f-xl) var(--f-title);
+      text-transform: uppercase;
+		}
+
+		.ficha-concepto { 
+      grid-column: 2;
+      font: 900 var(--f-base) var(--f-mono);
+		}
+	}
+
+	.ficha-datos { 
+    grid-column: 2;
+
+		span { 
+
+		}
+	}
+
+	.ficha-descripcion { 
+    grid-column: 2;
+
+	}
+}
