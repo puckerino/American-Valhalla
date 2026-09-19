@@ -29,6 +29,10 @@
 			@container style(--pj: julie) {
 				--simbolo: url(https://i.imgur.com/8LC1F38.png);
 			}
+
+			@container stye(--pj: teddy) {
+				--simbolo: url(https://pngfre.com/wp-content/uploads/key-23.png);
+			}
 		}
 		
 		.ficha-name { 
