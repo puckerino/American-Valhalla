@@ -22,7 +22,7 @@
 	display: grid;
 	grid-template-columns: 1fr max-content;
 	grid-template-areas: "body aside";
-	gap: var(--spacing);
+	gap: var(--spacing);		
 
 	.postbody { 
 		display: grid !important;
@@ -146,6 +146,10 @@
 
 			&:has(.av-standard, av-rol) {
 				padding: var(--spacing-5xl);
+			}
+
+			&:has(.av-ficha-personaje) {
+				padding: 0;
 			}
 		}
 	}
