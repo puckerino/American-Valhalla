@@ -1,20 +1,20 @@
 .av-ficha-personaje { 
-
+	
 	.ficha-hero { 
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: var(--spacing);
-    position: relative;
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		gap: var(--spacing);
+		position: relative;
 		overflow: clip;
-
-    @container style(--screen: mobile) {
-      grid-template-columns: 1fr 150px;
-      gap: var(--spacing);
-    }
-
+		
+		@container style(--screen: mobile) {
+			grid-template-columns: 1fr 150px;
+			gap: var(--spacing);
+		}
+		
 		.ficha-simbolo { 
-            position: absolute;
-            top: -50%;
+			position: absolute;
+			top: -50%;
             left: -10%;
             height: 150%;
             width: 150%;
@@ -23,52 +23,42 @@
             mask-image: var(--simbolo);
             mask-size: contain;
             mask-repeat: no-repeat;
-
+			
 			@container style(--pj: julie) {
 				--simbolo: url(https://i.imgur.com/8LC1F38.png);
 			}
 		}
-
+		
 		.ficha-name { 
-      display: flex;
-      flex-direction: column;
-      gap: 0;
+			display: flex;
+			flex-direction: column;
+			gap: 0;
 			place-self: center;
 			position: relative;
-
+			width: 20vw;
+			
 			span { 
-        font-family: var(--f-title-deco);
-        text-transform: uppercase;
-        line-height: 1;
-
-        &:first-of-type {
-          font-size: var(--f-5xl);
-
-          @container style(--screen: mobile) {
-            font-size: var(--f-3xl);
-          }
-        }
-
-        &:last-of-type {
-          font-size: var(--f-2xl);
-        }
+				font-family: var(--f-title-deco);
+				text-transform: uppercase;
+				line-height: .8;
+				text-fit: grow;
 			}
 		}
-
+		
 		.ficha-imagen { 
-      display: flex;
-      justify-content: center;
-      align-items: center;
-
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			
 			img { 
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-
-        @container style(--screen: mobile) {
-          height: 150px;
-          width: 150px;
-        }
+				height: 300px;
+				width: 300px;
+				object-fit: cover;
+				
+				@container style(--screen: mobile) {
+					height: 150px;
+					width: 150px;
+				}
 			}
 		}
 	}
