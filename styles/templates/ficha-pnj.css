@@ -1,6 +1,6 @@
 .av-ficha-pnj { 
   display: grid;
-  grid-template-columns: calc(200px + var(--spacing)) 1fr;
+  grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
   position: relative;
   
   .ficha-imagen { 
@@ -18,8 +18,9 @@
 	.ficha-hero { 
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: calc(200px + var(--spacing)) 1fr;
+    grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
     background: var(--surface-elevated);
+		padding: var(--spacing-xl);
 
 		.ficha-nombre { 
       grid-column: 2;
