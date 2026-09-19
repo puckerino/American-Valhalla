@@ -49,24 +49,27 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			position: relative;
 			
+			&:after {
+				content: "";
+				position: absolute;
+				height: 300px;
+				width: 300px;
+				background: url(https://i.imgur.com/x04gaBG.png);
+				background-size: 100% 100%;
+				z-index: 2;
+
+				@container style(--screen: mobile) {
+					height: 150px;
+					width: 150px;
+				}
+			}
+	
 			img { 
 				height: 300px;
 				width: 300px;
 				object-fit: cover;
-				position: relative;
-
-				&:after {
-					content: "";
-					position: absolute;
-					top: 0;
-					left: 0;
-					height: 100%;
-					width: 100%;
-					background: url(https://i.imgur.com/x04gaBG.png);
-					background-size: 100% 100%;
-					z-index: 2;
-				}
 				
 				@container style(--screen: mobile) {
 					height: 150px;
