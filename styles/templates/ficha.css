@@ -54,14 +54,14 @@
 			&:after {
 				content: "";
 				position: absolute;
-				height: 300px;
+				height: 302px;
 				width: 300px;
 				background: url(https://i.imgur.com/x04gaBG.png);
 				background-size: 100% 100%;
 				z-index: 2;
 
 				@container style(--screen: mobile) {
-					height: 150px;
+					height: 152px;
 					width: 150px;
 				}
 			}
