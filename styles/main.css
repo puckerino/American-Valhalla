@@ -1,0 +1,31 @@
+/* main.css */
+
+@import "./root.css";
+@import "./fonts.css";
+
+@import "./elements/buttons.css";
+@import "./elements/pagination.css";
+
+@import "./templates/utils.css";
+@import "./templates/forms.css";
+@import "./templates/images.css";
+@import "./templates/posts.css";
+@import "./templates/ficha.css";
+@import "./templates/ficha-pnj.css";
+
+@import "./topics/body/blog.css";
+@import "./topics/body/standard.css";
+
+@import "./topics/list/blog.css";
+@import "./topics/list/grid.css";
+@import "./topics/list/standard.css";
+
+@import "./banner.css";
+@import "./footer.css";
+@import "./forums.css";
+@import "./group-colors.css";
+@import "./nav.css";
+@import "./pnjs.css";
+@import "./posting.css";
+@import "./profile.css";
+@import "./tablon.css";
