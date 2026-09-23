@@ -44,6 +44,9 @@ jobs:
             --minify \
             --outfile=dist/theme-body.min.css
 
+      - name: Copy Assets
+        run: cp -r assets dist/
+
       - name: Commit and Push Dist
         run: |
           git config user.name "github-actions[bot]"
