@@ -31,7 +31,7 @@
         </div>
 
         <div class="ficha-datos">
-          <span>${npc.edad}</span>
+          <span>${npc.edad} AÑOS</span>
           <span>${npc.oficio}</span>
           <span>${npc.faceclaim}</span>
         </div>
