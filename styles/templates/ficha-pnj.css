@@ -1,50 +1,54 @@
 .av-ficha-pnj { 
-  display: grid;
-  grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
-  position: relative;
-	gap: var(--spacing);
-  
-  .ficha-imagen { 
-    position: absolute;
-    top: var(--spacing);
-    left: var(--spacing);
-
-			img { 
-        object-fit: cover;
-        width: 200px;
-        height: 200px;
-			}
+	display: grid;
+	grid-template-columns: max-content 1fr; 
+	grid-template-areas: "img name" "data history";
+	
+	.ficha-imagen { 
+		grid-area: img;
+		width: 300px; 
+		height: 300px;
+		
+		img { 
+			min-height: 0;
+			min-width: 0;
+			object-fit: cover;
+			height: 100%;
+			width: 100%;
+			filter: grayscale(1);
 		}
+	}
 
 	.ficha-hero { 
-    grid-column: 1 / -1;
-    display: grid;
-    grid-template-columns: calc(200px + var(--spacing-xl)) 1fr;
-    background: var(--surface-elevated);
-		padding: var(--spacing-2xl);
-
+		grid-area: name;
+		display: flex;
+		flex-direction: column;
+		
 		.ficha-nombre { 
-      grid-column: 2;
-      font: var(--f-xl) var(--f-title);
-      text-transform: uppercase;
+			font: var(--f-2xl) var(--f-post-username);
+			text-transform: uppercase;
 		}
 
 		.ficha-concepto { 
-      grid-column: 2;
-      font: 900 var(--f-base) var(--f-mono);
+			font: italic var(--f-base) var(--f-mono);
+			text-transform: lowercase;
 		}
 	}
 
 	.ficha-datos { 
-    grid-column: 2;
+		grid-area: data;
+		display: flex;
+		flex-direction: column;
+		gap: var(--spacing-s);
 
 		span { 
-
+			text-transform: uppercase;
 		}
 	}
 
 	.ficha-descripcion { 
-    grid-column: 2;
+		grid-area: history;
+		text-wrap: balance;
+		line-height: 1;
 
 	}
 }
