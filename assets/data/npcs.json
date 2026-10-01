@@ -1,14 +1,215 @@
 {
   "npcs": [
     {
-      "nombre": "John",
-      "apellido": "Doe",
-      "concepto": "Cazarrecompensas",
-      "edad": 34,
-      "oficio": "Mercenario",
-      "faceclaim": "Pedro Pascal",
-      "descripcion": "Descripción del personaje.",
-      "imagen": "https://ejemplo.com/imagen.jpg"
+      "nombre": "Don",
+      "apellido": "Buchanan",
+      "concepto": "",
+      "edad": 64,
+      "oficio": "Alcalde",
+      "faceclaim": "Brian Cox",
+      "descripcion": "Donald, más conocido como Don, no es el primer Buchanan en ostentar la alcaldía de Kane, si no todo lo contrario. Su padre ya fue alcalde, lo mismo que su abuelo, y siempre se han jactado de estar en el poder sin tener que mover ni un dedo, porque ellos lo valen. Aunque conserva gran parte de la soberbia de sus predecesores, lo cierto es que Don tampoco es un mal alcalde, y en general, sabe mantener el orden en el pueblo. Muy chapado a la antigua y pragmático, Don no duda en imponer su criterio a toda costa, lo cual en ocasiones le trae problemas con los sectores más liberales de la población, pero que se aguanten, haber sido alcaldes ellos.",
+      "imagen": "https://2img.net/i.imgur.com/XxY0yEi.png"
+    },
+    {
+      "nombre": "Hector",
+      "apellido": "Savage",
+      "concepto": "Cacique en la sombra",
+      "edad": 63,
+      "oficio": "Dueño de las minas",
+      "faceclaim": "Orson Welles",
+      "descripcion": "Hector Savage apareció de la nada una buena mañana de 1935 en Kane, con una cantidad aparentemente ilimitada de dinero y mucho carisma. Nadie sabe bien cómo ocurrió, pero logró hacerse con el control de la mina y en muy poco tiempo se estableció como el cacique del lugar. Se rumorea que no trata muy bien a sus trabajadores y que por eso la mina aún le sale rentable, pero pobre de aquel que ose llevarle la contraria. Tiene fama de excéntrico y presume de montar las mejores fiestas en su mansión, el Savage Chateau y por supuesto, solo unos pocos están invitados.",
+      "imagen": "https://2img.net/i.imgur.com/av0ceA9.jpg"
+    },
+    {
+      "nombre": "Charlie",
+      "apellido": "Boswell",
+      "concepto": "A punto de retirarse",
+      "edad": 62,
+      "oficio": "Sheriff",
+      "faceclaim": "Tommy Lee Jones",
+      "descripcion": "No te voy a engañar, Charlie está cansado de tus mierdas, y de las de todo el mundo. Lleva siendo sheriff de Kane desde hace un buen montón de años, y ya está harto de aguantar tonterías y de escuchar estupideces. Todo lo que él quiere es tomarse un café, comerse un trozo de tarta y que no le molesten mucho. Por fortuna para él, Kane es una balsa de aceite así que sus deseos de una vida tranquila habitualmente se ven cumplidos, quitando alguna que otra llamada tratando de poner la denuncia boba de turno. No puede puede esperar para jubilarse, y se le nota."
+      "imagen": "https://2img.net/i.imgur.com/cG4DLzI.png"
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
+    },
+    {
+      "nombre": "",
+      "apellido": "",
+      "concepto": "",
+      "edad": ,
+      "oficio": "",
+      "faceclaim": "",
+      "descripcion": "",
+      "imagen": ""
     }
+    
   ]
 }
