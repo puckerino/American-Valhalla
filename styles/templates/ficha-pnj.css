@@ -51,7 +51,7 @@
 		flex-direction: column;
 		
 		.ficha-nombre { 
-			font: var(--f-5xl) var(--f-post-username);
+			font: var(--f-3xl) var(--f-post-username);
 			text-transform: uppercase;
 			display: flex;
 			flex-direction: column;
