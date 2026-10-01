@@ -55,26 +55,28 @@
 		}
 
 		.ficha-concepto { 
-			font: italic var(--f-base) var(--f-mono);
+			font: var(--f-base) var(--f-mono);
 			text-transform: lowercase;
 		}
 	}
 
 	.ficha-datos { 
 		grid-area: data;
-		display: flex;
-		flex-direction: column;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
 		gap: var(--spacing-s);
 
 		span { 
 			text-transform: uppercase;
+			font: var(--f-s) var(--f-metadata);
+			border-left: 1px solid var(--accent);
+			padding: 0 var(--spacing-xs);
 		}
 	}
 
 	.ficha-descripcion { 
 		grid-area: history;
 		text-wrap: balance;
-		line-height: 1;
-
+		line-height: 1.5;
 	}
 }
