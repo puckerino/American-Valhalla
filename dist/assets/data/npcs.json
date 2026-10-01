@@ -10,76 +10,84 @@
       "faceclaim": "Brian Cox",
       "descripcion": "Donald, más conocido como Don, no es el primer Buchanan en ostentar la alcaldía de Kane, si no todo lo contrario. Su padre ya fue alcalde, lo mismo que su abuelo, y siempre se han jactado de estar en el poder sin tener que mover ni un dedo, porque ellos lo valen. Aunque conserva gran parte de la soberbia de sus predecesores, lo cierto es que Don tampoco es un mal alcalde, y en general, sabe mantener el orden en el pueblo. Muy chapado a la antigua y pragmático, Don no duda en imponer su criterio a toda costa, lo cual en ocasiones le trae problemas con los sectores más liberales de la población, pero que se aguanten, haber sido alcaldes ellos."
     },
-  { 
-  "nombre": "Hector",
-  "apellido": "Savage",
-  "concepto": "Cacique maduro en tu zona",
-  "imagen": "https://media.npr.org/assets/img/2018/10/26/other-side-of-the-wind2_sq-164ad2d5e3308bb57c5d00840b0c845f89b7a9cb.jpg",
-  "oficio": "Dueño de las minas",
-  "edad": 63,
-  "faceclaim": "Orson Welles",
-  "descripcion": "Hector Savage apareció de la nada una buena mañana de 1935 en Kane, con una cantidad aparentemente ilimitada de dinero y mucho carisma. Nadie sabe bien cómo ocurrió, pero logró hacerse con el control de la mina y en muy poco tiempo se estableció como el cacique del lugar. Se rumorea que no trata muy bien a sus trabajadores y que por eso la mina aún le sale rentable, pero pobre de aquel que ose llevarle la contraria. Tiene fama de excéntrico y presume de montar las mejores fiestas en su mansión, el Savage Chateau y por supuesto, solo unos pocos están invitados."
-  },
-  { 
-  "nombre": "Charlie",
-  "apellido": "Boswell",
-  "concepto": "A punto de retirarse",
-  "imagen": "https://2img.net/i.imgur.com/cG4DLzI.png",
-  "oficio": "Sheriff",
-  "edad": 62,
-  "faceclaim": "Tommy Lee Jones",
-  "descripcion": "No te voy a engañar, Charlie está cansado de tus mierdas, y de las de todo el mundo. Lleva siendo sheriff de Kane desde hace un buen montón de años, y ya está harto de aguantar tonterías y de escuchar estupideces. Todo lo que él quiere es tomarse un café, comerse un trozo de tarta y que no le molesten mucho. Por fortuna para él, Kane es una balsa de aceite así que sus deseos de una vida tranquila habitualmente se ven cumplidos, quitando alguna que otra llamada tratando de poner la denuncia boba de turno. No puede puede esperar para jubilarse, y se le nota."
-  },
-  { 
-  "nombre": "Tristan",
-  "apellido": "Braker",
-  "concepto": "El loco del pueblo",
-  "imagen": "https://2img.net/i.imgur.com/rdD7E1z.png",
-  "oficio": "Desempleado",
-  "edad": 60,
-  "faceclaim": "Desconocido",
-  "descripcion": "Un personaje conocido por todo el pueblo, porque nadie se libra de su gusto por la charla absurda y de su interés por hacer saber a todo el mundo de sus teorías locas. Tristán vive en el bosque en una torre cochambrosa edificada por él mismo, donde se ha atrincherado porque según él, le espían los aliens, o los fantasmas, o los astronautas, o el gobierno, o quien tercie ese día. De vez en cuando, se le ve por el pueblo cuando va a comprar (en Campbells, un hombre con criterio) y no duda en aburrir a los lugareños incautos con sus discursos delirantes. En general, es inofensivo, así que mucha gente le sigue el rollo para quitárselo de encima cuanto antes, y seguir con su vida."
-  },
-  { 
-  "nombre": "Pat",
-  "apellido": "Kramer",
-  "concepto": "Dura y curtida",
-  "imagen": "https://2img.net/i.imgur.com/Zg0Ns3w.png",
-  "oficio": "Minera",
-  "edad": 43,
-  "faceclaim": "Jennifer Jason Leigh",
-  "descripcion": "No es que Pat quiera darse aires de nada, pero es verdad que no hay muchas mujeres trabajando en las minas de Kane, pero de haberlas, sin duda ella sería la mejor. Aunque fueron más que reacios a contratarla debido a su sexo, su insistencia y más tarde su valía le han hecho convertirse en una trabajadora indispensable. Es madre de dos hijos de padre desconocido, y desde luego no necesita a nadie que le ayude, que ella sola se basta y se sobra. No es muy habladora y tiene fama de no ser demasiado simpática, pero en realidad es todo fachada y a veces, solo a veces, es hasta maja. "
-  },
-  { 
-  "nombre": "Barnie",
-  "apellido": "Culpepper",
-  "concepto": "Mejor médico que Gene",
-  "imagen": "https://2img.net/i.imgur.com/zny4AzD.png",
-  "oficio": "Médico",
-  "edad": 68,
-  "faceclaim": "Danny Devito",
-  "descripcion": "Barnie Culpepper, más conocido como Barnie el Rojo, es uno de los médicos dueños del único consultorio del pueblo. Es probable que sea un gran profesional, pero nadie ha tenido oportunidad de comprobarlo porque prefiere pasarse el día peleando con su socio Gene, contando batallitas de cuando estuvo en la guerra de Corea y quejándose de que Hector Savage es un cacique y un capitalista. Conserva un revólver de su tiempo en el ejército, y le gusta mucho sacarlo a pasear cuando alguien le lleva la contraria, pero nunca ha disparado a nadie...por ahora."
-  },
-  { 
-  "nombre": "Gene",
-  "apellido": "Parmesan",
-  "concepto": "Mejor médico que Barnie",
-  "imagen": "https://2img.net/i.imgur.com/SA2qqcb.png",
-  "oficio": "Médico",
-  "edad": "68",
-  "faceclaim": "Wallace Shawn",
-  "descripcion": "Gene jamás perdonará a Barnie el adelantarse y encargar el rótulo de su consultorio poniéndose a él antes, ya que está claro que él es el médico superior. Presume mucho de haberse graduado de universidades de prestigio, pero nunca dice cuáles, a pesar de que se le llena la boca con ello. Le gusta mucho jugar al póker y se enfada una barbaridad cuando pierde, es muy competitivo y además, un poco pesetero. "
-  },
-  { 
-  "nombre": "Thomas",
-  "apellido": "Mapple",
-  "concepto": "Los caminos de Dios son inescrutables; los de Kane, más",
-  "imagen": "https://2img.net/i.imgur.com/qvCeplK.png",
-  "oficio": "Pastor",
-  "edad": 34,
-  "faceclaim": "Paul Dano",
-  "descripcion": "Tras la muerte del anterior pastor, un hombre chapado a la antigua que era capaz de dar los sermones más aburridos del mundo, llegó el momento para los nuevos tiempos, y ahí que estaba Thomas, dispuesto a estar a la altura. Nacido en Atlanta, a Thomas le gusta mucho hablar de sus cosas de fe y de la iglesia y es un poco pesado a veces, pero tiene buenas intenciones. Es muy dado a organizar eventos que fracasan en multitud de ocasiones, pero él no se rinde y sigue intentándolo muy fuerte. Tiene, además, una fe inquebrantable en la juventud del pueblo, y se siente su líder, aunque nadie le haya otorgado ese papel, pero no hay quien le haga cambiar de opinión, así que intenta mostrarse siempre cercano y abierto, porque él es un Padre guay."
-  },
+    
+    { 
+      "nombre": "Hector",
+      "apellido": "Savage",
+      "concepto": "Cacique maduro en tu zona",
+      "imagen": "https://media.npr.org/assets/img/2018/10/26/other-side-of-the-wind2_sq-164ad2d5e3308bb57c5d00840b0c845f89b7a9cb.jpg",
+      "oficio": "Dueño de las minas",
+      "edad": 63,
+      "faceclaim": "Orson Welles",
+      "descripcion": "Hector Savage apareció de la nada una buena mañana de 1935 en Kane, con una cantidad aparentemente ilimitada de dinero y mucho carisma. Nadie sabe bien cómo ocurrió, pero logró hacerse con el control de la mina y en muy poco tiempo se estableció como el cacique del lugar. Se rumorea que no trata muy bien a sus trabajadores y que por eso la mina aún le sale rentable, pero pobre de aquel que ose llevarle la contraria. Tiene fama de excéntrico y presume de montar las mejores fiestas en su mansión, el Savage Chateau y por supuesto, solo unos pocos están invitados."
+    },
+    
+    { 
+      "nombre": "Charlie",
+      "apellido": "Boswell",
+      "concepto": "A punto de retirarse",
+      "imagen": "https://cdn1.faroutmagazine.co.uk/uploads/1/2021/09/Tommy-Lee-Jones-five-greatest-film-roles.jpg",
+      "oficio": "Sheriff",
+      "edad": 62,
+      "faceclaim": "Tommy Lee Jones",
+      "descripcion": "No te voy a engañar, Charlie está cansado de tus mierdas, y de las de todo el mundo. Lleva siendo sheriff de Kane desde hace un buen montón de años, y ya está harto de aguantar tonterías y de escuchar estupideces. Todo lo que él quiere es tomarse un café, comerse un trozo de tarta y que no le molesten mucho. Por fortuna para él, Kane es una balsa de aceite así que sus deseos de una vida tranquila habitualmente se ven cumplidos, quitando alguna que otra llamada tratando de poner la denuncia boba de turno. No puede puede esperar para jubilarse, y se le nota."
+    },
+    
+    { 
+      "nombre": "Tristan",
+      "apellido": "Braker",
+      "concepto": "El loco del pueblo",
+      "imagen": "https://2img.net/i.imgur.com/rdD7E1z.png",
+      "oficio": "Desempleado",
+      "edad": 60,
+      "faceclaim": "Desconocido",
+      "descripcion": "Un personaje conocido por todo el pueblo, porque nadie se libra de su gusto por la charla absurda y de su interés por hacer saber a todo el mundo de sus teorías locas. Tristán vive en el bosque en una torre cochambrosa edificada por él mismo, donde se ha atrincherado porque según él, le espían los aliens, o los fantasmas, o los astronautas, o el gobierno, o quien tercie ese día. De vez en cuando, se le ve por el pueblo cuando va a comprar (en Campbells, un hombre con criterio) y no duda en aburrir a los lugareños incautos con sus discursos delirantes. En general, es inofensivo, así que mucha gente le sigue el rollo para quitárselo de encima cuanto antes, y seguir con su vida."
+    },
+    
+    { 
+      "nombre": "Pat",
+      "apellido": "Kramer",
+      "concepto": "Dura y curtida",
+      "imagen": "https://www.formulatv.com/images/articulos/88000/n88768_Jx04Y1RqLa2NWFi6sm9BgzvcE5UPHtko3-q.jpg",
+      "oficio": "Minera",
+      "edad": 43,
+      "faceclaim": "Jennifer Jason Leigh",
+      "descripcion": "No es que Pat quiera darse aires de nada, pero es verdad que no hay muchas mujeres trabajando en las minas de Kane, pero de haberlas, sin duda ella sería la mejor. Aunque fueron más que reacios a contratarla debido a su sexo, su insistencia y más tarde su valía le han hecho convertirse en una trabajadora indispensable. Es madre de dos hijos de padre desconocido, y desde luego no necesita a nadie que le ayude, que ella sola se basta y se sobra. No es muy habladora y tiene fama de no ser demasiado simpática, pero en realidad es todo fachada y a veces, solo a veces, es hasta maja. "
+    },
+    
+    { 
+      "nombre": "Barnie",
+      "apellido": "Culpepper",
+      "concepto": "Mejor médico que Gene",
+      "imagen": "https://images.squarespace-cdn.com/content/v1/5c6bd5f54d546e480d70927d/1569922432536-FGZXGAUMR6UU1KSU5NDR/Danny_DeVito-6547069+copy.jpg",
+      "oficio": "Médico",
+      "edad": 68,
+      "faceclaim": "Danny Devito",
+      "descripcion": "Barnie Culpepper, más conocido como Barnie el Rojo, es uno de los médicos dueños del único consultorio del pueblo. Es probable que sea un gran profesional, pero nadie ha tenido oportunidad de comprobarlo porque prefiere pasarse el día peleando con su socio Gene, contando batallitas de cuando estuvo en la guerra de Corea y quejándose de que Hector Savage es un cacique y un capitalista. Conserva un revólver de su tiempo en el ejército, y le gusta mucho sacarlo a pasear cuando alguien le lleva la contraria, pero nunca ha disparado a nadie...por ahora."
+    },
+    
+    { 
+      "nombre": "Gene",
+      "apellido": "Parmesan",
+      "concepto": "Mejor médico que Barnie",
+      "imagen": "https://miamibookfair.com/wp-content/uploads/shawn_wallace-1.jpg",
+      "oficio": "Médico",
+      "edad": "68",
+      "faceclaim": "Wallace Shawn",
+      "descripcion": "Gene jamás perdonará a Barnie el adelantarse y encargar el rótulo de su consultorio poniéndose a él antes, ya que está claro que él es el médico superior. Presume mucho de haberse graduado de universidades de prestigio, pero nunca dice cuáles, a pesar de que se le llena la boca con ello. Le gusta mucho jugar al póker y se enfada una barbaridad cuando pierde, es muy competitivo y además, un poco pesetero. "
+    },
+    
+    { 
+      "nombre": "Thomas",
+      "apellido": "Mapple",
+      "concepto": "Los caminos de Dios son inescrutables; los de Kane, más",
+      "imagen": "https://media.gq.com/photos/6349a209d7a963c398f96458/master/pass/00-GQ1122_Dano_02.jpg",
+      "oficio": "Pastor",
+      "edad": 34,
+      "faceclaim": "Paul Dano",
+      "descripcion": "Tras la muerte del anterior pastor, un hombre chapado a la antigua que era capaz de dar los sermones más aburridos del mundo, llegó el momento para los nuevos tiempos, y ahí que estaba Thomas, dispuesto a estar a la altura. Nacido en Atlanta, a Thomas le gusta mucho hablar de sus cosas de fe y de la iglesia y es un poco pesado a veces, pero tiene buenas intenciones. Es muy dado a organizar eventos que fracasan en multitud de ocasiones, pero él no se rinde y sigue intentándolo muy fuerte. Tiene, además, una fe inquebrantable en la juventud del pueblo, y se siente su líder, aunque nadie le haya otorgado ese papel, pero no hay quien le haga cambiar de opinión, así que intenta mostrarse siempre cercano y abierto, porque él es un Padre guay."
+    },
+    
   { 
   "nombre": "Constanze L.",
   "apellido": "Hawthorne",
