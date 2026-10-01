@@ -7,8 +7,8 @@
 	
 	.ficha-imagen { 
 		grid-area: img;
-		width: 300px; 
-		height: 300px;
+		width: 200px; 
+		height: 200px;
 		position: relative;
 		display: flex;
 		align-items: center;
@@ -22,8 +22,8 @@
 			&:after {
 				content: "";
 				position: absolute;
-				height: 302px;
-				width: 302px;
+				height: 202px;
+				width: 202px;
 				background: url(https://i.imgur.com/x04gaBG.png);
 				background-size: 100% 100%;
 				z-index: 2;
@@ -54,7 +54,7 @@
 			font: var(--f-3xl) var(--f-post-username);
 			text-transform: uppercase;
 			display: flex;
-			flex-direction: column;
+			gap: var(--spacing);
 		}
 
 		.ficha-concepto { 
