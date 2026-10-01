@@ -131,7 +131,7 @@
   "descripcion": "A las afueras del pueblo está la granja de los Vogel, donde no se crían vacas ni gallinas, si no visones y zorros que más tarde pasarán a aumentar la colección de señoras de la alta sociedad de ciudades más prósperas como Nueva York, Chicago o Nueva Orleans. Tras la muerte de su padre, Enoch heredó el negocio y desde entonces no ha hecho si no prosperar, convirtiéndose en uno de los lugareños más adinerados y no es discreto al respecto. Junto a su esposa, Miriam, les gusta pasear por la calle principal de Kane luciendo lujosos abrigos que desentonan con la ropa del resto, y no dudan en hablar de los logros de sus hijos en prestigiosas universidades, donde son profesores y catedráticos. Su hogar casi rivaliza con la mansión de Héctor, aunque está claro que ellos prefieren invertir en las apariencias y sobre todo, en dejarse ver."
   },
   { 
-  "nombre": "Miriam Vogel",
+  "nombre": "Miriam",
   "apellido": "Vogel",
   "concepto": "Señora de bien",
   "imagen": "https://2img.net/i.imgur.com/AizGV4Q.png",
@@ -273,9 +273,9 @@
    { 
   "nombre": "Eugene",
   "apellido": "Hutz",
-  "concepto": "Feriante",
+  "concepto": "Pavo Escopetero",
   "imagen": "https://2img.net/i.imgur.com/xPQmwTj.png",
-  "oficio": "Dueño de los Pavos Escopeteros",
+  "oficio": "Feriante",
   "edad": 40,
   "faceclaim": "Eugene Hutz",
   "descripcion": "Si piensas que Eugene Hutz se llama Eugene y que se apellida Hutz, estas obviamente muy equivocado. Si le preguntan, él cuenta historias muy emocionantes sobre su infancia en Europa y su viaje a Estados Unidos, donde se labro una honrosa carrera como (y aquí las respuestas varían): domador de leones, equilibrista, actor de teatro, saxofonista, corredor de apuestas ilegales o titiritero, la respuesta varía según le apetezca. lo que sí que es seguro es que desde hace unos años visita Kane con su puesto de los pavos escopeteros, y es todo un éxito, tanto que la gente hace cola para poder jugar. A pesar de que no tiene buena fama, tampoco se debe a nada en concreto y es que nunca ha hecho nada malo, aparte de llevar pantalones demasiado prietos que escandalizan a las señoras, claro está. Si ser estiloso fuese un crimen, Eugene ya estaría en la cárcel, pero como no es el caso, él continúa con sus negocios."
