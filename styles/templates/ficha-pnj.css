@@ -2,7 +2,8 @@
 	display: grid;
 	grid-template-columns: max-content 1fr; 
 	grid-template-areas: "img name" "img data" "img history";
-	gap: 0 var(--spacing);
+	gap: var(--spacing);
+	margin-bottom: var(--spacing);
 	
 	.ficha-imagen { 
 		grid-area: img;
@@ -50,7 +51,7 @@
 		flex-direction: column;
 		
 		.ficha-nombre { 
-			font: var(--f-2xl) var(--f-post-username);
+			font: var(--f-5xl) var(--f-post-username);
 			text-transform: uppercase;
 			display: flex;
 			flex-direction: column;
@@ -58,7 +59,7 @@
 
 		.ficha-concepto { 
 			font: var(--f-base) var(--f-mono);
-			text-transform: lowercase;
+			text-transform: uppercase;
 		}
 	}
 
