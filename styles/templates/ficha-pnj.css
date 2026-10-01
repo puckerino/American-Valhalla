@@ -1,12 +1,34 @@
 .av-ficha-pnj { 
 	display: grid;
 	grid-template-columns: max-content 1fr; 
-	grid-template-areas: "img name" "data history";
+	grid-template-areas: "img name" "img data" "img history";
+	gap: 0 var(--spacing);
 	
 	.ficha-imagen { 
 		grid-area: img;
 		width: 300px; 
 		height: 300px;
+		position: relative;
+		
+		@container style(--screen: mobile) {
+			height: 150px;
+			width: 150px;
+		}
+			
+			&:after {
+				content: "";
+				position: absolute;
+				height: 302px;
+				width: 300px;
+				background: url(https://i.imgur.com/x04gaBG.png);
+				background-size: 100% 100%;
+				z-index: 2;
+
+				@container style(--screen: mobile) {
+					height: 152px;
+					width: 150px;
+				}
+			}
 		
 		img { 
 			min-height: 0;
