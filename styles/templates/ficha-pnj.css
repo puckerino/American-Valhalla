@@ -3,7 +3,7 @@
 	grid-template-columns: max-content 1fr; 
 	grid-template-areas: "img name" "img data" "img history";
 	gap: var(--spacing);
-	margin-bottom: var(--spacing);
+	margin-bottom: var(--spacing-2xl);
 	
 	.ficha-imagen { 
 		grid-area: img;
