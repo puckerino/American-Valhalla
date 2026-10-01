@@ -22,14 +22,14 @@
 				content: "";
 				position: absolute;
 				height: 302px;
-				width: 300px;
+				width: 302px;
 				background: url(https://i.imgur.com/x04gaBG.png);
 				background-size: 100% 100%;
 				z-index: 2;
 
 				@container style(--screen: mobile) {
 					height: 152px;
-					width: 150px;
+					width: 152px;
 				}
 			}
 		
