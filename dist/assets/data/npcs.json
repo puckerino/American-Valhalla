@@ -1,16 +1,15 @@
 {
   "npcs": [
-    
     { 
-  "nombre": "Don",
-  "apellido": "Buchanan",
-  "concepto": "El líder que nadie ha pedido",
-  "imagen": "https://2img.net/i.imgur.com/XxY0yEi.png",
-  "oficio": "Alcalde",
-  "edad": 64,
-  "faceclaim": "Brian Cox",
-  "descripcion": "Donald, más conocido como Don, no es el primer Buchanan en ostentar la alcaldía de Kane, si no todo lo contrario. Su padre ya fue alcalde, lo mismo que su abuelo, y siempre se han jactado de estar en el poder sin tener que mover ni un dedo, porque ellos lo valen. Aunque conserva gran parte de la soberbia de sus predecesores, lo cierto es que Don tampoco es un mal alcalde, y en general, sabe mantener el orden en el pueblo. Muy chapado a la antigua y pragmático, Don no duda en imponer su criterio a toda costa, lo cual en ocasiones le trae problemas con los sectores más liberales de la población, pero que se aguanten, haber sido alcaldes ellos."
-  },
+      "nombre": "Don",
+      "apellido": "Buchanan",
+      "concepto": "El líder que nadie ha pedido",
+      "imagen": "https://2img.net/i.imgur.com/XxY0yEi.png",
+      "oficio": "Alcalde",
+      "edad": 64,
+      "faceclaim": "Brian Cox",
+      "descripcion": "Donald, más conocido como Don, no es el primer Buchanan en ostentar la alcaldía de Kane, si no todo lo contrario. Su padre ya fue alcalde, lo mismo que su abuelo, y siempre se han jactado de estar en el poder sin tener que mover ni un dedo, porque ellos lo valen. Aunque conserva gran parte de la soberbia de sus predecesores, lo cierto es que Don tampoco es un mal alcalde, y en general, sabe mantener el orden en el pueblo. Muy chapado a la antigua y pragmático, Don no duda en imponer su criterio a toda costa, lo cual en ocasiones le trae problemas con los sectores más liberales de la población, pero que se aguanten, haber sido alcaldes ellos."
+    },
   { 
   "nombre": "Hector",
   "apellido": "Savage",
