@@ -52,6 +52,8 @@
 		.ficha-nombre { 
 			font: var(--f-2xl) var(--f-post-username);
 			text-transform: uppercase;
+			display: flex;
+			flex-direction: column;
 		}
 
 		.ficha-concepto { 
@@ -65,12 +67,15 @@
 		display: grid;
 		grid-template-columns: repeat(3,1fr);
 		gap: var(--spacing-s);
+		height: max-content;
+		align-self: center;
 
 		span { 
 			text-transform: uppercase;
-			font: var(--f-s) var(--f-metadata);
-			border-left: 1px solid var(--accent);
-			padding: 0 var(--spacing-xs);
+			font: bold var(--f-s) var(--f-metadata);
+			border-left: 5px solid var(--accent);
+			padding: 0 var(--spacing);
+			letter-spacing: .1ch;
 		}
 	}
 
