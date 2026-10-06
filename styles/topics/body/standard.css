@@ -115,27 +115,24 @@
 			display: flex;
 			flex-direction: column;
 			align-items: center;
-			gap: var(--spacing-s);
+			gap: var(--spacing);
 
+			li, a {
+				display: flex;
+			}
 
-			.permalink { 
-
-				i { 
-
-				}
+			.material-icons-outlined {
+				font-size: var(--f-l);
 			}
 
 			.profile-icons { 
-							height: max-content;
-			position: sticky;
-			top: var(--spacing-s);
+				height: max-content;
+				position: sticky;
+				top: var(--spacing-s);
 				display: flex;
 				flex-direction: column;
 				align-items: center;
-				gap: var(--spacing-s);
-
-				li { 
-				}
+				gap: var(--spacing);
 			}
 		}
 
