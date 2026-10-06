@@ -20,6 +20,7 @@ footer {
   [data-pixie-footer] {
     display: grid;
     grid-template-columns: max-content 1fr max-content;
+    grid-template-rows: max-content 1fr;
     grid-template-areas:  "groups online stats" "groups online lastuser";
 
     @container style(--screen: mobile) {
@@ -29,9 +30,41 @@ footer {
 
     .pixie-footer-stats {
       grid-area: stats;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-s);
+      padding: var(--spacing);
+
+      .pixie-footer-stat {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: var(--spacing-s);
+
+        strong {
+          font: var(--f-l) var(--f-title-deco);
+        }
+
+        span {
+          font: var(--f-s) var(--f-metadata);
+          text-transform: uppercase;
+          letter-spacing: .1ch;
+        }
+      }
     }
     .pixie-footer-lastuser {
       grid-area: lastuser;
+      display: flex;
+      flex-direction: column;
+      gap: var(--spacing-s);
+      justify-content: center;
+      align-items: center;
+
+      a {
+        font: var(--f-xl) var(--f-title-deco);
+        text-transform: uppercase;
+      }
     }
     .pixie-footer-online {
       grid-area: online;
@@ -56,6 +89,17 @@ footer {
 
       @container style(--screen: mobile) {
         grid-template-columns: 1;
+      }
+
+      .pixie-footer-users {
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing);
+
+        h4 {
+          font: var(--f-xl) var(--f-title-deco);
+          text-transform: uppercase;
+        }
       }
     }
     .pixie-footer-groups {
