@@ -91,6 +91,7 @@
     font: 100 var(--f-base) var(--f-mono);
     text-transform: uppercase;
     padding: var(--spacing);
+      gap: var(--spacing-s);
 
     &:has(a:nth-child(5)) {
       grid-template-columns: repeat(2,1fr);
@@ -98,6 +99,7 @@
 
     a {
       text-align: right;
+        display: flex;
     }
   }
 
@@ -131,9 +133,6 @@
         a.gensmall {
           font: var(--f-base) var(--f-title-deco);
           text-transform: uppercase;
-          text-box-edge: cap alphabetic;
-text-box-trim: trim-both;
-          line-height: 1;
         }
       }
 
