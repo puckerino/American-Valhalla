@@ -122,10 +122,12 @@
 	.ficha-personalidad {
 		grid-area: personalidad;
 		padding: var(--spacing-l);
+		line-height: 1.5;
 	}
 	.ficha-historia {
 		grid-area: historia;
 		padding: var(--spacing-l);
+		line-height: 1.5;
 	}
 	.ficha-familia {
 		grid-area: familia;
