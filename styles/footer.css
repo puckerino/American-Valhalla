@@ -60,8 +60,25 @@ footer {
     }
     .pixie-footer-groups {
       grid-area: groups;
+
+      .pixie-footer-group-list {
+      display: flex;
+      flex-direction: column;
+      padding: var(--spacing);
+      gap: var(--spacing);
+
+        .pixie-footer-group {
+          display: flex;
+          flex-direction: column-reverse;
+          justify-content: center;
+          align-items: center;
+          padding: var(--spacing);
+          gap: var(--spacing-s);
+          background: linear-gradient(150deg, transparent 70%, var(--group-color) 200%);
+          }
+        }
+      }
     }
-  }
 
   .forum-options {
     display: flex;
