@@ -1,6 +1,17 @@
 .av-ficha-personaje { 
+	display: grid;
+	grid-template-columns: .5fr 1fr;
+	grid-template-areas: 
+		"hero hero"
+		"datos datos"
+		"personalidad historia"
+		"familia curiosidades"
+		"stats stats"
+		;
+		
 	
 	.ficha-hero { 
+		grid-area: hero;
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		gap: var(--spacing);
@@ -86,6 +97,7 @@
 	}
 	
 	.ficha-datos {
+		grid-area: datos;
 		display: grid;
 		grid-template-columns: repeat(6,1fr);
 		border-top: 1px solid var(--border);
@@ -101,17 +113,22 @@
 		}
 	}
 	
-	.ficha-personalidad {}
-	.ficha-historia {}
-	.ficha-familia {}
+	.ficha-personalidad {
+		grid-area: personalidad;
+	}
+	.ficha-historia {
+		grid-area: historia;
+	}
+	.ficha-familia {
+		grid-area: familia;
+	}
 	
 	.ficha-curiosidades {
-		br {
-			display: block !important;
-		}
+		grid-area: curiosidades;
 	}
 	
 	.ficha-stats {
+		grid-area: stats;
 		display: grid;
 		grid-template-columns: 1fr .5fr;
 		gap: var(--spacing);
