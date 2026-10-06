@@ -49,6 +49,7 @@
 		grid-area: name;
 		display: flex;
 		flex-direction: column;
+		gap: var(--spacing) 0;
 		
 		.ficha-nombre { 
 			font: var(--f-3xl) var(--f-post-username);
