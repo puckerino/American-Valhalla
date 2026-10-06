@@ -84,4 +84,37 @@
 			}
 		}
 	}
+	
+	.ficha-datos {
+		display: grid;
+		grid-template-columns: repeat(6,1fr);
+		border-top: 1px solid var(--border);
+		border-bottom: 1px solid var(--border);
+
+		@container style(--screen: mobile) {
+			grid-template-columns: repeat(2,1fr);
+		}
+
+		& > .form-control {
+			padding: var(--spacing);
+			gap: var(--spacing-s);
+		}
+	}
+	
+	.ficha-personalidad {}
+	.ficha-historia {}
+	.ficha-familia {}
+	
+	.ficha-curiosidades {
+		br {
+			display: block !important;
+		}
+	}
+	
+	.ficha-stats {
+		display: grid;
+		grid-template-columns: 1fr .5fr;
+		gap: var(--spacing);
+	}
+	
 }
