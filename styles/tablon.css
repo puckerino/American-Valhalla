@@ -3,6 +3,8 @@
   display: grid;
   grid-template-columns: repeat(3,1fr);
   gap: var(--spacing);
+	padding: var(--spacing);
+	background: var(--surface-elevated);
 	
 	.tablon-title { 
 		font: var(--f-xl) var(--f-title-deco);
@@ -20,6 +22,7 @@
 			width: 100%;
 			display: grid;
 			grid-template-columns: repeat(4,1fr);
+			gap: var(--spacing);
 			
 			@container style(--screen: mobile) {
 				grid-template-columns: 1fr;
