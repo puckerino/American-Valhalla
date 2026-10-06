@@ -70,6 +70,7 @@ footer {
       grid-area: online;
       display: grid;
       grid-template-columns: repeat(2,1fr);
+      grid-template-rows: max-content 1fr;
 
       .pixie-footer-online-summary {
         grid-column: 1 / -1;
