@@ -110,21 +110,30 @@
 		& > .form-control {
 			padding: var(--spacing);
 			gap: var(--spacing-s);
+
+			span {
+				font: bold var(--f-base) var(--f-mono);
+				text-transform: uppercase;
+			}
 		}
 	}
 	
 	.ficha-personalidad {
 		grid-area: personalidad;
+		padding: var(--spacing);
 	}
 	.ficha-historia {
 		grid-area: historia;
+		padding: var(--spacing);
 	}
 	.ficha-familia {
 		grid-area: familia;
+		padding: var(--spacing);
 	}
 	
 	.ficha-curiosidades {
 		grid-area: curiosidades;
+		padding: var(--spacing);
 	}
 	
 	.ficha-stats {
